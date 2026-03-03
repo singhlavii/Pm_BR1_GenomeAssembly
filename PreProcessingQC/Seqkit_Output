@@ -1,0 +1,93 @@
++ module use -a /g/data/if89/apps/modulefiles
++ unset _mlshdbg
++ '[' 0 = 1 ']'
++ unset _mlre _mlIFS
++ '[' -n x ']'
++ _mlIFS=' 	
+'
++ IFS=' '
++ '[' -n '' ']'
+++ /usr/bin/tclsh /opt/Modules/v4.3.0/libexec/modulecmd.tcl bash use -a /g/data/if89/apps/modulefiles
++ eval 'MODULEPATH_modshare=/etc/scl/modulefiles:1:/g/data/if89/apps/modulefiles:1:/opt/Modules/modulefiles:1:/opt/Modules/v4.3.0/modulefiles:1:/apps/Modules/modulefiles:1;' export 'MODULEPATH_modshare;
+MODULEPATH=/etc/scl/modulefiles:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles:/g/data/if89/apps/modulefiles;' export 'MODULEPATH;
+test' '0;'
+++ MODULEPATH_modshare=/etc/scl/modulefiles:1:/g/data/if89/apps/modulefiles:1:/opt/Modules/modulefiles:1:/opt/Modules/v4.3.0/modulefiles:1:/apps/Modules/modulefiles:1
+++ export MODULEPATH_modshare
+++ MODULEPATH=/etc/scl/modulefiles:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles:/g/data/if89/apps/modulefiles
+++ export MODULEPATH
+++ test 0
++ _mlstatus=0
++ '[' -n x ']'
++ IFS=' 	
+'
++ unset _mlre _mlv _mlrv _mlIFS
++ '[' -n '' ']'
++ unset _mlshdbg
++ return 0
++ module load seqkit/2.9.0
++ unset _mlshdbg
++ '[' 0 = 1 ']'
++ unset _mlre _mlIFS
++ '[' -n x ']'
++ _mlIFS=' 	
+'
++ IFS=' '
++ '[' -n '' ']'
+++ /usr/bin/tclsh /opt/Modules/v4.3.0/libexec/modulecmd.tcl bash load seqkit/2.9.0
++ eval '_LMFILES__modshare=/g/data/if89/apps/modulefiles/seqkit/2.9.0:1;' export '_LMFILES__modshare;
+LOADEDMODULES_modshare=seqkit/2.9.0:1;' export 'LOADEDMODULES_modshare;
+SEQKIT_ROOT=/apps/seqkit/2.9.0;' export 'SEQKIT_ROOT;
+MODULES_LMCONFLICT_modshare=seqkit/2.9.0\&seqkit\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug:1;' export 'MODULES_LMCONFLICT_modshare;
+PATH=/g/data/if89/apps/seqkit/2.9.0:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin;' export 'PATH;
+_LMFILES_=/g/data/if89/apps/modulefiles/seqkit/2.9.0;' export '_LMFILES_;
+LOADEDMODULES=seqkit/2.9.0;' export 'LOADEDMODULES;
+SEQKIT_VERSION=2.9.0;' export 'SEQKIT_VERSION;
+MODULES_LMCONFLICT=seqkit/2.9.0\&seqkit\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug;' export 'MODULES_LMCONFLICT;
+SEQKIT_BASE=/apps/seqkit/2.9.0;' export 'SEQKIT_BASE;
+PATH_modshare=/bin:1:/usr/sbin:1:/g/data/xf3/miniconda/condabin:1:/usr/bin:1:/opt/pbs/default/bin:1:/opt/bin:1:/opt/Modules/v4.3.0/bin:1:/usr/local/sbin:1:/local/pbs/bin:1:/g/data/if89/apps/seqkit/2.9.0:1:/opt/nci/bin:1;' export 'PATH_modshare;
+test' '0;'
+++ _LMFILES__modshare=/g/data/if89/apps/modulefiles/seqkit/2.9.0:1
+++ export _LMFILES__modshare
+++ LOADEDMODULES_modshare=seqkit/2.9.0:1
+++ export LOADEDMODULES_modshare
+++ SEQKIT_ROOT=/apps/seqkit/2.9.0
+++ export SEQKIT_ROOT
+++ MODULES_LMCONFLICT_modshare='seqkit/2.9.0&seqkit&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug:1'
+++ export MODULES_LMCONFLICT_modshare
+++ PATH=/g/data/if89/apps/seqkit/2.9.0:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export PATH
+++ _LMFILES_=/g/data/if89/apps/modulefiles/seqkit/2.9.0
+++ export _LMFILES_
+++ LOADEDMODULES=seqkit/2.9.0
+++ export LOADEDMODULES
+++ SEQKIT_VERSION=2.9.0
+++ export SEQKIT_VERSION
+++ MODULES_LMCONFLICT='seqkit/2.9.0&seqkit&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug'
+++ export MODULES_LMCONFLICT
+++ SEQKIT_BASE=/apps/seqkit/2.9.0
+++ export SEQKIT_BASE
+++ PATH_modshare=/bin:1:/usr/sbin:1:/g/data/xf3/miniconda/condabin:1:/usr/bin:1:/opt/pbs/default/bin:1:/opt/bin:1:/opt/Modules/v4.3.0/bin:1:/usr/local/sbin:1:/local/pbs/bin:1:/g/data/if89/apps/seqkit/2.9.0:1:/opt/nci/bin:1
+++ export PATH_modshare
+++ test 0
++ _mlstatus=0
++ '[' -n x ']'
++ IFS=' 	
+'
++ unset _mlre _mlv _mlrv _mlIFS
++ '[' -n '' ']'
++ unset _mlshdbg
++ return 0
++ cd /scratch/xf3/ls9057/Pmelanocephala/638001_LibID640766_PP_BRF_PBI90827_ONTPromethION_fastq_pass
++ seqkit stats --all -T Pm_ONT_mergedfq.fastq.gz
+
+======================================================================================
+                  Resource Usage on 2026-03-02 22:21:45:
+   Job Id:             162118384.gadi-pbs
+   Project:            xf3
+   Exit Status:        0
+   Service Units:      13.79
+   NCPUs Requested:    24                  CPU Time Used: 00:32:56        
+   Memory Requested:   96.0GB                Memory Used: 41.99GB         
+   Walltime Requested: 12:00:00            Walltime Used: 00:17:14        
+   JobFS Requested:    200.0GB                JobFS Used: 0B              
+======================================================================================
