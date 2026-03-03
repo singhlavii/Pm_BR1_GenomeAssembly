@@ -4,7 +4,7 @@
 cd /scratch/xf3/ls9057/Pmelanocephala
 
 ## The files were tar and gzipped so i first decompressed tar using 
-tar -xvzf 638001_LibID640766_PP_BRF_PBI90827_ONTPromethION_fastq_pass.tar
+tar -xvf 638001_LibID640766_PP_BRF_PBI90827_ONTPromethION_fastq_pass.tar
 
 ## Submit script that Yan wrote to unzip using pigz. Not sure what the last bit does
 
