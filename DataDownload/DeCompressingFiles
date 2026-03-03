@@ -1,0 +1,65 @@
+########## Unzipping Files before input to Hifiasm #############
+
+## I worked in scratch because it had more space 
+cd /scratch/xf3/ls9057/Pmelanocephala
+
+## The files were tar and gzipped so i first decompressed tar using 
+tar -czvf Pm_ONT_fastq_pass.tar.gz 638001_LibID640766_PP_BRF_PBI90827_ONTPromethION_fastq_pass
+
+## Submit script that Yan wrote to unzip using pigz. Not sure what the last bit does
+
+####################################################### this is what the script looks like #############################################
+ 
+#!/bin/bash
+#PBS -l ncpus=8
+#PBS -l mem=20GB
+#PBS -l jobfs=200GB
+#PBS -q normal
+#PBS -P xf3
+#PBS -l walltime=12:00:00
+#PBS -l storage=gdata/xf3+scratch/xf3+gdata/fa63+scratch/fa63
+#PBS -l wd
+#PBS -j oe
+#PBS -m abe
+#PBS -M u7406681@anu.edu.au
+cd /scratch/xf3/ls9057/Pmelanocephala/638001_LibID640766_PP_BRF_PBI90827_ONTPromethION_fastq_pass
+or i in *.gz ; 
+do
+pigz -p 8 -d ${i} >>merged.fq
+done
+pigz -p 8 merged.fq
+
+####################################################################################################################################### 
+
+
+## Once done, I merged all the fastq files to a single file
+cat *.fastq > Pm_ONT_mergedfq.fastq
+
+## Then I gzipped the merged file using another script
+
+####################################################### this is what the script looks like #############################################
+ 
+#!/bin/bash
+#PBS -l ncpus=8
+#PBS -l mem=20GB
+#PBS -l jobfs=200GB
+#PBS -q normal
+#PBS -P xf3
+#PBS -l walltime=12:00:00
+#PBS -l storage=gdata/xf3+scratch/xf3+gdata/fa63+scratch/fa63
+#PBS -l wd
+#PBS -j oe
+#PBS -m abe
+#PBS -M u7406681@anu.edu.au
+
+cd /scratch/xf3/ls9057/Pmelanocephala/638001_LibID640766_PP_BRF_PBI90827_ONTPromethION_fastq_pass
+
+pigz -p 8 Pm_ONT_mergedfq.fastq
+
+####################################################################################################################################### 
+
+
+
+
+
+
