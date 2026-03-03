@@ -1,0 +1,22 @@
+#!/bin/bash
+#PBS -l ncpus=24
+#PBS -l mem=96GB
+#PBS -l jobfs=200GB
+#PBS -q normal
+#PBS -P xf3
+#PBS -l walltime=12:00:00
+#PBS -l storage=gdata/xf3+scratch/xf3+gdata/fa63+scratch/fa63+gdata/if89
+#PBS -l wd
+#PBS -j oe
+#PBS -m abe
+#PBS -M u7406681@anu.edu.au
+
+set -xue
+
+module use -a /g/data/if89/apps/modulefiles
+module load seqkit/2.9.0
+
+cd /scratch/xf3/ls9057/Pmelanocephala/638001_LibID640766_PP_BRF_PBI90827_ONTPromethION_fastq_pass
+
+# Use Seqkit
+seqkit stats --all -T Pm_ONT_mergedfq.fastq.gz > Pm_ONT_seqkit.tsv
