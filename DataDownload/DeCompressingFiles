@@ -23,10 +23,7 @@ tar -czvf Pm_ONT_fastq_pass.tar.gz 638001_LibID640766_PP_BRF_PBI90827_ONTPrometh
 #PBS -m abe
 #PBS -M u7406681@anu.edu.au
 cd /scratch/xf3/ls9057/Pmelanocephala/638001_LibID640766_PP_BRF_PBI90827_ONTPromethION_fastq_pass
-or i in *.gz ; 
-do
-pigz -p 8 -d ${i} >>merged.fq
-done
+for i in *.gz ; do pigz -p 8 -d ${i} >>merged.fq; done
 pigz -p 8 merged.fq
 
 ####################################################################################################################################### 
