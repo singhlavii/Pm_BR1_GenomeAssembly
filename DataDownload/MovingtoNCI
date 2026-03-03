@@ -1,0 +1,21 @@
+## I have stored my data in u7406681@rsb-061244:/media/longterm/lavi
+
+## Made a new folder called Pmelanocephala and moved folders there
+mv bpa_337df82d_20260227T0407 Pmelanocephala/
+mv bpa_7c2e418d_20260227T0251 Pmelanocephala/
+
+## Rename to be more accessible
+mv bpa_337df82d_20260227T0407 Pm_HiC
+mv bpa_7c2e418d_20260227T0251 Pm_ONT
+
+######## Move the ONT data to NCI ################
+
+## Check how much empty space always. There is space in xf3 gdata so that is where I will move my stuff.
+lquota
+
+## To move data into NCI- you have to use NCI data mover node which has a different address:ls9057@gadi-dm.nci.org.au. Rita also mentioned NCI does not like it if you sit there and move into it so I will sit in Rusty and move to NCI.
+u7406681@rsb-061244:/media/longterm/lavi/Pmelanocephala$ scp -r Pm_ONT ls9057@gadi-dm.nci.org.au:/g/data/xf3/ls9057/Pmelanocephala/
+
+u7406681@rsb-061244:/media/longterm/lavi/Pmelanocephala$ scp -r Pm_HiC ls9057@gadi-dm.nci.org.au:/g/data/xf3/ls9057/Pmelanocephala/
+
+ 
