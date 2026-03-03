@@ -1,0 +1,21 @@
+#!/bin/bash
+#PBS -l ncpus=24
+#PBS -l mem=96GB
+#PBS -l jobfs=200GB
+#PBS -q normal
+#PBS -P xf3
+#PBS -l walltime=12:00:00
+#PBS -l storage=gdata/xf3+scratch/xf3+gdata/fa63+scratch/fa63+gdata/if89
+#PBS -l wd
+#PBS -j oe
+#PBS -m abe
+#PBS -M u7406681@anu.edu.au
+
+set -xue
+
+module load jellyfish/2.3.0
+
+cd /scratch/xf3/ls9057/Pmelanocephala/638001_LibID640766_PP_BRF_PBI90827_ONTPromethION_fastq_pass
+
+jellyfish count -C -m 21 -s 1000000000 -t 8 Pm_ONT_mergedfq.fastq -o Pm_ONT_mergedfq.jf
+jellyfish histo Pm_ONT_mergedfq.jf >  Pm_ONT_mergedfq.histo
