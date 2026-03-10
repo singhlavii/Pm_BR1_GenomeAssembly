@@ -1,0 +1,88 @@
++ cd /g/data/xf3/ls9057/Pmelanocephala
++ GFA=Pm_ONT_30Gb_trial.asm.hic.hap2.p_ctg.gfa
++ OUTFILE=Pm_30Gb.asm.hic.hap2.contig_lengths_sorted.txt
++ FASTA=Pm_30Gb.asm.hic.hap2.p_ctg.fasta
++ '[' '!' -f Pm_ONT_30Gb_trial.asm.hic.hap2.p_ctg.gfa ']'
++ echo 'Running contig length extraction on: Pm_ONT_30Gb_trial.asm.hic.hap2.p_ctg.gfa'
+Running contig length extraction on: Pm_ONT_30Gb_trial.asm.hic.hap2.p_ctg.gfa
+++ date
++ echo 'Started: Tue Mar 10 12:13:34 AEDT 2026'
+Started: Tue Mar 10 12:13:34 AEDT 2026
++ echo ''
+
++ echo 'Converting GFA to FASTA and extracting contig lengths...'
+Converting GFA to FASTA and extracting contig lengths...
++ sort '-t	' -k2 -rn
++ awk '
+/^S/ {
+    print ">"$2"\n"$3 > "Pm_30Gb.asm.hic.hap2.p_ctg.fasta"
+    print $2"\t"length($3)
+}
+' Pm_ONT_30Gb_trial.asm.hic.hap2.p_ctg.gfa
++ '[' '!' -f Pm_30Gb.asm.hic.hap2.p_ctg.fasta ']'
++ '[' '!' -s Pm_30Gb.asm.hic.hap2.contig_lengths_sorted.txt ']'
++ echo 'FASTA saved to: Pm_30Gb.asm.hic.hap2.p_ctg.fasta'
+FASTA saved to: Pm_30Gb.asm.hic.hap2.p_ctg.fasta
++ echo ''
+
++ echo '===== Summary ====='
+===== Summary =====
+++ wc -l
++ echo 'Total contigs:    28'
+Total contigs:    28
++ echo ''
+
++ echo 'Top 10 largest contigs:'
+Top 10 largest contigs:
++ head -10 Pm_30Gb.asm.hic.hap2.contig_lengths_sorted.txt
+h2tg000012l	23768465
+h2tg000002l	23576716
+h2tg000016l	23211056
+h2tg000009l	22712065
+h2tg000006l	22100663
+h2tg000003l	21253883
+h2tg000007l	19499351
+h2tg000013l	16311436
+h2tg000014l	15400945
+h2tg000011l	14973397
++ echo ''
+
++ echo 'Total assembly size:'
+Total assembly size:
++ awk '{sum+=$2} END{printf "%.2f Mb\n", sum/1000000}' Pm_30Gb.asm.hic.hap2.contig_lengths_sorted.txt
+312.74 Mb
++ echo ''
+
+++ wc -l
+++ awk '$2 > 1000000' Pm_30Gb.asm.hic.hap2.contig_lengths_sorted.txt
++ echo 'Contigs > 1Mb:   20'
+Contigs > 1Mb:   20
+++ wc -l
+++ awk '$2 > 10000000' Pm_30Gb.asm.hic.hap2.contig_lengths_sorted.txt
++ echo 'Contigs > 10Mb:  17'
+Contigs > 10Mb:  17
+++ wc -l
+++ awk '$2 > 100000000' Pm_30Gb.asm.hic.hap2.contig_lengths_sorted.txt
++ echo 'Contigs > 100Mb: 0'
+Contigs > 100Mb: 0
++ echo ''
+
+++ date
++ echo 'Finished: Tue Mar 10 12:13:36 AEDT 2026'
+Finished: Tue Mar 10 12:13:36 AEDT 2026
++ echo 'Full results saved to: Pm_30Gb.asm.hic.hap2.contig_lengths_sorted.txt'
+Full results saved to: Pm_30Gb.asm.hic.hap2.contig_lengths_sorted.txt
++ echo 'FASTA file saved to:   Pm_30Gb.asm.hic.hap2.p_ctg.fasta'
+FASTA file saved to:   Pm_30Gb.asm.hic.hap2.p_ctg.fasta
+
+======================================================================================
+                  Resource Usage on 2026-03-10 12:13:42:
+   Job Id:             162707306.gadi-pbs
+   Project:            xf3
+   Exit Status:        0
+   Service Units:      0.00
+   NCPUs Requested:    1                   CPU Time Used: 00:00:01        
+   Memory Requested:   4.0GB                 Memory Used: 669.41MB        
+   Walltime Requested: 01:00:00            Walltime Used: 00:00:03        
+   JobFS Requested:    200.0GB                JobFS Used: 0B              
+======================================================================================
