@@ -1,0 +1,280 @@
++ module load bedtools/2.31.0
++ unset _mlshdbg
++ '[' 0 = 1 ']'
++ unset _mlre _mlIFS
++ '[' -n x ']'
++ _mlIFS=' 	
+'
++ IFS=' '
++ '[' -n '' ']'
+++ /usr/bin/tclsh /opt/Modules/v4.3.0/libexec/modulecmd.tcl bash load bedtools/2.31.0
++ eval '_LMFILES__modshare=/apps/Modules/modulefiles/bedtools/2.31.0:1;' export '_LMFILES__modshare;
+LOADEDMODULES_modshare=bedtools/2.31.0:1;' export 'LOADEDMODULES_modshare;
+MODULES_LMCONFLICT_modshare=bedtools/2.31.0\&bedtools\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars:1;' export 'MODULES_LMCONFLICT_modshare;
+BEDTOOLS_VERSION=2.31.0;' export 'BEDTOOLS_VERSION;
+PATH=/apps/bedtools/2.31.0/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin;' export 'PATH;
+_LMFILES_=/apps/Modules/modulefiles/bedtools/2.31.0;' export '_LMFILES_;
+LOADEDMODULES=bedtools/2.31.0;' export 'LOADEDMODULES;
+BEDTOOLS_BASE=/apps/bedtools/2.31.0;' export 'BEDTOOLS_BASE;
+MODULES_LMCONFLICT=bedtools/2.31.0\&bedtools\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars;' export 'MODULES_LMCONFLICT;
+BEDTOOLS_ROOT=/apps/bedtools/2.31.0;' export 'BEDTOOLS_ROOT;
+PATH_modshare=/bin:1:/usr/sbin:1:/g/data/xf3/miniconda/condabin:1:/usr/bin:1:/opt/pbs/default/bin:1:/opt/bin:1:/opt/Modules/v4.3.0/bin:1:/usr/local/sbin:1:/local/pbs/bin:1:/apps/bedtools/2.31.0/bin:1:/opt/nci/bin:1;' export 'PATH_modshare;
+test' '0;'
+++ _LMFILES__modshare=/apps/Modules/modulefiles/bedtools/2.31.0:1
+++ export _LMFILES__modshare
+++ LOADEDMODULES_modshare=bedtools/2.31.0:1
+++ export LOADEDMODULES_modshare
+++ MODULES_LMCONFLICT_modshare='bedtools/2.31.0&bedtools&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars:1'
+++ export MODULES_LMCONFLICT_modshare
+++ BEDTOOLS_VERSION=2.31.0
+++ export BEDTOOLS_VERSION
+++ PATH=/apps/bedtools/2.31.0/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export PATH
+++ _LMFILES_=/apps/Modules/modulefiles/bedtools/2.31.0
+++ export _LMFILES_
+++ LOADEDMODULES=bedtools/2.31.0
+++ export LOADEDMODULES
+++ BEDTOOLS_BASE=/apps/bedtools/2.31.0
+++ export BEDTOOLS_BASE
+++ MODULES_LMCONFLICT='bedtools/2.31.0&bedtools&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars'
+++ export MODULES_LMCONFLICT
+++ BEDTOOLS_ROOT=/apps/bedtools/2.31.0
+++ export BEDTOOLS_ROOT
+++ PATH_modshare=/bin:1:/usr/sbin:1:/g/data/xf3/miniconda/condabin:1:/usr/bin:1:/opt/pbs/default/bin:1:/opt/bin:1:/opt/Modules/v4.3.0/bin:1:/usr/local/sbin:1:/local/pbs/bin:1:/apps/bedtools/2.31.0/bin:1:/opt/nci/bin:1
+++ export PATH_modshare
+++ test 0
++ _mlstatus=0
++ '[' -n x ']'
++ IFS=' 	
+'
++ unset _mlre _mlv _mlrv _mlIFS
++ '[' -n '' ']'
++ unset _mlshdbg
++ return 0
++ module load samtools/1.22
++ unset _mlshdbg
++ '[' 0 = 1 ']'
++ unset _mlre _mlIFS
++ '[' -n x ']'
++ _mlIFS=' 	
+'
++ IFS=' '
++ '[' -n '' ']'
+++ /usr/bin/tclsh /opt/Modules/v4.3.0/libexec/modulecmd.tcl bash load samtools/1.22
++ eval 'MANPATH=/apps/samtools/1.22/share/man:/opt/pbs/default/share/man:::/local/pbs/share/man;' export 'MANPATH;
+LOADEDMODULES=bedtools/2.31.0:samtools/1.22;' export 'LOADEDMODULES;
+_LMFILES_=/apps/Modules/modulefiles/bedtools/2.31.0:/apps/Modules/modulefiles/samtools/1.22;' export '_LMFILES_;
+MANPATH_modshare=:1:/apps/samtools/1.22/share/man:1:/opt/pbs/default/share/man:1:/local/pbs/share/man:1;' export 'MANPATH_modshare;
+MODULES_LMCONFLICT=bedtools/2.31.0\&bedtools\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars:samtools/1.22\&samtools\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars;' export 'MODULES_LMCONFLICT;
+MODULES_LMCONFLICT_modshare=bedtools/2.31.0\&bedtools\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars:1:samtools/1.22\&samtools\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars:1;' export 'MODULES_LMCONFLICT_modshare;
+SAMTOOLS_ROOT=/apps/samtools/1.22;' export 'SAMTOOLS_ROOT;
+SAMTOOLS_BASE=/apps/samtools/1.22;' export 'SAMTOOLS_BASE;
+LOADEDMODULES_modshare=samtools/1.22:1:bedtools/2.31.0:1;' export 'LOADEDMODULES_modshare;
+_LMFILES__modshare=/apps/Modules/modulefiles/samtools/1.22:1:/apps/Modules/modulefiles/bedtools/2.31.0:1;' export '_LMFILES__modshare;
+PATH=/apps/samtools/1.22/bin:/apps/bedtools/2.31.0/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin;' export 'PATH;
+PATH_modshare=/usr/bin:1:/opt/Modules/v4.3.0/bin:1:/opt/bin:1:/g/data/xf3/miniconda/condabin:1:/local/pbs/bin:1:/apps/bedtools/2.31.0/bin:1:/bin:1:/opt/pbs/default/bin:1:/opt/nci/bin:1:/usr/sbin:1:/usr/local/sbin:1:/apps/samtools/1.22/bin:1;' export 'PATH_modshare;
+SAMTOOLS_VERSION=1.22;' export 'SAMTOOLS_VERSION;
+test' '0;'
+++ MANPATH=/apps/samtools/1.22/share/man:/opt/pbs/default/share/man:::/local/pbs/share/man
+++ export MANPATH
+++ LOADEDMODULES=bedtools/2.31.0:samtools/1.22
+++ export LOADEDMODULES
+++ _LMFILES_=/apps/Modules/modulefiles/bedtools/2.31.0:/apps/Modules/modulefiles/samtools/1.22
+++ export _LMFILES_
+++ MANPATH_modshare=:1:/apps/samtools/1.22/share/man:1:/opt/pbs/default/share/man:1:/local/pbs/share/man:1
+++ export MANPATH_modshare
+++ MODULES_LMCONFLICT='bedtools/2.31.0&bedtools&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars:samtools/1.22&samtools&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars'
+++ export MODULES_LMCONFLICT
+++ MODULES_LMCONFLICT_modshare='bedtools/2.31.0&bedtools&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars:1:samtools/1.22&samtools&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars:1'
+++ export MODULES_LMCONFLICT_modshare
+++ SAMTOOLS_ROOT=/apps/samtools/1.22
+++ export SAMTOOLS_ROOT
+++ SAMTOOLS_BASE=/apps/samtools/1.22
+++ export SAMTOOLS_BASE
+++ LOADEDMODULES_modshare=samtools/1.22:1:bedtools/2.31.0:1
+++ export LOADEDMODULES_modshare
+++ _LMFILES__modshare=/apps/Modules/modulefiles/samtools/1.22:1:/apps/Modules/modulefiles/bedtools/2.31.0:1
+++ export _LMFILES__modshare
+++ PATH=/apps/samtools/1.22/bin:/apps/bedtools/2.31.0/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export PATH
+++ PATH_modshare=/usr/bin:1:/opt/Modules/v4.3.0/bin:1:/opt/bin:1:/g/data/xf3/miniconda/condabin:1:/local/pbs/bin:1:/apps/bedtools/2.31.0/bin:1:/bin:1:/opt/pbs/default/bin:1:/opt/nci/bin:1:/usr/sbin:1:/usr/local/sbin:1:/apps/samtools/1.22/bin:1
+++ export PATH_modshare
+++ SAMTOOLS_VERSION=1.22
+++ export SAMTOOLS_VERSION
+++ test 0
++ _mlstatus=0
++ '[' -n x ']'
++ IFS=' 	
+'
++ unset _mlre _mlv _mlrv _mlIFS
++ '[' -n '' ']'
++ unset _mlshdbg
++ return 0
++ module use -a /g/data/if89/apps/modulefiles/
++ unset _mlshdbg
++ '[' 0 = 1 ']'
++ unset _mlre _mlIFS
++ '[' -n x ']'
++ _mlIFS=' 	
+'
++ IFS=' '
++ '[' -n '' ']'
+++ /usr/bin/tclsh /opt/Modules/v4.3.0/libexec/modulecmd.tcl bash use -a /g/data/if89/apps/modulefiles/
++ eval 'MODULEPATH_modshare=/etc/scl/modulefiles:1:/g/data/if89/apps/modulefiles:1:/opt/Modules/modulefiles:1:/opt/Modules/v4.3.0/modulefiles:1:/apps/Modules/modulefiles:1;' export 'MODULEPATH_modshare;
+MODULEPATH=/etc/scl/modulefiles:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles:/g/data/if89/apps/modulefiles;' export 'MODULEPATH;
+test' '0;'
+++ MODULEPATH_modshare=/etc/scl/modulefiles:1:/g/data/if89/apps/modulefiles:1:/opt/Modules/modulefiles:1:/opt/Modules/v4.3.0/modulefiles:1:/apps/Modules/modulefiles:1
+++ export MODULEPATH_modshare
+++ MODULEPATH=/etc/scl/modulefiles:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles:/g/data/if89/apps/modulefiles
+++ export MODULEPATH
+++ test 0
++ _mlstatus=0
++ '[' -n x ']'
++ IFS=' 	
+'
++ unset _mlre _mlv _mlrv _mlIFS
++ '[' -n '' ']'
++ unset _mlshdbg
++ return 0
++ module load minimap2/2.30
++ unset _mlshdbg
++ '[' 0 = 1 ']'
++ unset _mlre _mlIFS
++ '[' -n x ']'
++ _mlIFS=' 	
+'
++ IFS=' '
++ '[' -n '' ']'
+++ /usr/bin/tclsh /opt/Modules/v4.3.0/libexec/modulecmd.tcl bash load minimap2/2.30
++ eval '_LMFILES__modshare=/apps/Modules/modulefiles/samtools/1.22:1:/g/data/if89/apps/modulefiles/minimap2/2.30:1:/apps/Modules/modulefiles/bedtools/2.31.0:1;' export '_LMFILES__modshare;
+LOADEDMODULES_modshare=samtools/1.22:1:bedtools/2.31.0:1:minimap2/2.30:1;' export 'LOADEDMODULES_modshare;
+MINIMAP2_ROOT=/apps/minimap2/2.30;' export 'MINIMAP2_ROOT;
+MODULES_LMCONFLICT_modshare=bedtools/2.31.0\&bedtools\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars:1:samtools/1.22\&samtools\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars:1:minimap2/2.30\&minimap2\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug:1;' export 'MODULES_LMCONFLICT_modshare;
+PATH=/g/data/if89/apps/minimap2/2.30/bin:/apps/samtools/1.22/bin:/apps/bedtools/2.31.0/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin;' export 'PATH;
+_LMFILES_=/apps/Modules/modulefiles/bedtools/2.31.0:/apps/Modules/modulefiles/samtools/1.22:/g/data/if89/apps/modulefiles/minimap2/2.30;' export '_LMFILES_;
+LOADEDMODULES=bedtools/2.31.0:samtools/1.22:minimap2/2.30;' export 'LOADEDMODULES;
+MINIMAP2_VERSION=2.30;' export 'MINIMAP2_VERSION;
+MODULES_LMCONFLICT=bedtools/2.31.0\&bedtools\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars:samtools/1.22\&samtools\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug\&o/append-paths\&o/yes-append-paths\&o/use-append-paths\&o/enable-append-paths\&o/with-append-paths\&o/no-append-paths\&o/not-append-paths\&o/disable-append-paths\&o/without-append-paths\&o/packaged-envvars\&o/yes-packaged-envvars\&o/use-packaged-envvars\&o/enable-packaged-envvars\&o/with-packaged-envvars\&o/no-packaged-envvars\&o/not-packaged-envvars\&o/disable-packaged-envvars\&o/without-packaged-envvars:minimap2/2.30\&minimap2\&o/show-debug\&o/yes-show-debug\&o/use-show-debug\&o/enable-show-debug\&o/with-show-debug\&o/no-show-debug\&o/not-show-debug\&o/disable-show-debug\&o/without-show-debug;' export 'MODULES_LMCONFLICT;
+MINIMAP2_BASE=/apps/minimap2/2.30;' export 'MINIMAP2_BASE;
+PATH_modshare=/usr/bin:1:/opt/bin:1:/opt/Modules/v4.3.0/bin:1:/g/data/xf3/miniconda/condabin:1:/local/pbs/bin:1:/apps/bedtools/2.31.0/bin:1:/bin:1:/opt/pbs/default/bin:1:/opt/nci/bin:1:/usr/sbin:1:/apps/samtools/1.22/bin:1:/usr/local/sbin:1:/g/data/if89/apps/minimap2/2.30/bin:1;' export 'PATH_modshare;
+test' '0;'
+++ _LMFILES__modshare=/apps/Modules/modulefiles/samtools/1.22:1:/g/data/if89/apps/modulefiles/minimap2/2.30:1:/apps/Modules/modulefiles/bedtools/2.31.0:1
+++ export _LMFILES__modshare
+++ LOADEDMODULES_modshare=samtools/1.22:1:bedtools/2.31.0:1:minimap2/2.30:1
+++ export LOADEDMODULES_modshare
+++ MINIMAP2_ROOT=/apps/minimap2/2.30
+++ export MINIMAP2_ROOT
+++ MODULES_LMCONFLICT_modshare='bedtools/2.31.0&bedtools&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars:1:samtools/1.22&samtools&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars:1:minimap2/2.30&minimap2&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug:1'
+++ export MODULES_LMCONFLICT_modshare
+++ PATH=/g/data/if89/apps/minimap2/2.30/bin:/apps/samtools/1.22/bin:/apps/bedtools/2.31.0/bin:/g/data/xf3/miniconda/condabin:/opt/pbs/default/bin:/opt/nci/bin:/opt/bin:/opt/Modules/v4.3.0/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/local/pbs/bin
+++ export PATH
+++ _LMFILES_=/apps/Modules/modulefiles/bedtools/2.31.0:/apps/Modules/modulefiles/samtools/1.22:/g/data/if89/apps/modulefiles/minimap2/2.30
+++ export _LMFILES_
+++ LOADEDMODULES=bedtools/2.31.0:samtools/1.22:minimap2/2.30
+++ export LOADEDMODULES
+++ MINIMAP2_VERSION=2.30
+++ export MINIMAP2_VERSION
+++ MODULES_LMCONFLICT='bedtools/2.31.0&bedtools&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars:samtools/1.22&samtools&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug&o/append-paths&o/yes-append-paths&o/use-append-paths&o/enable-append-paths&o/with-append-paths&o/no-append-paths&o/not-append-paths&o/disable-append-paths&o/without-append-paths&o/packaged-envvars&o/yes-packaged-envvars&o/use-packaged-envvars&o/enable-packaged-envvars&o/with-packaged-envvars&o/no-packaged-envvars&o/not-packaged-envvars&o/disable-packaged-envvars&o/without-packaged-envvars:minimap2/2.30&minimap2&o/show-debug&o/yes-show-debug&o/use-show-debug&o/enable-show-debug&o/with-show-debug&o/no-show-debug&o/not-show-debug&o/disable-show-debug&o/without-show-debug'
+++ export MODULES_LMCONFLICT
+++ MINIMAP2_BASE=/apps/minimap2/2.30
+++ export MINIMAP2_BASE
+++ PATH_modshare=/usr/bin:1:/opt/bin:1:/opt/Modules/v4.3.0/bin:1:/g/data/xf3/miniconda/condabin:1:/local/pbs/bin:1:/apps/bedtools/2.31.0/bin:1:/bin:1:/opt/pbs/default/bin:1:/opt/nci/bin:1:/usr/sbin:1:/apps/samtools/1.22/bin:1:/usr/local/sbin:1:/g/data/if89/apps/minimap2/2.30/bin:1
+++ export PATH_modshare
+++ test 0
++ _mlstatus=0
++ '[' -n x ']'
++ IFS=' 	
+'
++ unset _mlre _mlv _mlrv _mlIFS
++ '[' -n '' ']'
++ unset _mlshdbg
++ return 0
++ cd /scratch/xf3/ls9057/Pmelanocephala/638001_LibID640766_PP_BRF_PBI90827_ONTPromethION_fastq_pass/
++ minimap2 -t 24 -ax map-ont Pm_asm/Pm_ONT_30Gb_trial.hap12.asm.fa Pm_ONT_longest_30gb.fastq.gz
++ samtools sort -@24 -O BAM -o Pm_ONT_30Gb_trial.hap12.asm.bam
+[M::mm_idx_gen::10.562*1.62] collected minimizers
+[M::mm_idx_gen::11.063*2.44] sorted minimizers
+[M::main::11.063*2.44] loaded/built the index for 78 target sequence(s)
+[M::mm_mapopt_update::11.312*2.41] mid_occ = 1377
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 78
+[M::mm_idx_stat::11.504*2.38] distinct minimizers: 19773316 (18.17% are singletons); average occurrences: 5.990; average spacing: 5.310; total length: 628966270
+[M::worker_pipeline::452.447*22.90] mapped 4763 sequences
+[M::worker_pipeline::869.173*23.23] mapped 5975 sequences
+[M::worker_pipeline::1285.448*23.43] mapped 6629 sequences
+[M::worker_pipeline::1703.239*23.48] mapped 7071 sequences
+[M::worker_pipeline::2128.302*23.52] mapped 7406 sequences
+[M::worker_pipeline::2545.775*23.54] mapped 7675 sequences
+[M::worker_pipeline::2954.385*23.59] mapped 7902 sequences
+[M::worker_pipeline::3368.308*23.63] mapped 8107 sequences
+[M::worker_pipeline::3783.480*23.65] mapped 8294 sequences
+[M::worker_pipeline::4198.792*23.68] mapped 8464 sequences
+[M::worker_pipeline::4615.666*23.68] mapped 8625 sequences
+[M::worker_pipeline::5033.479*23.68] mapped 8780 sequences
+[M::worker_pipeline::5452.637*23.68] mapped 8923 sequences
+[M::worker_pipeline::5862.234*23.70] mapped 9063 sequences
+[M::worker_pipeline::6274.974*23.71] mapped 9196 sequences
+[M::worker_pipeline::6693.434*23.70] mapped 9325 sequences
+[M::worker_pipeline::7109.571*23.71] mapped 9452 sequences
+[M::worker_pipeline::7524.335*23.72] mapped 9573 sequences
+[M::worker_pipeline::7937.446*23.73] mapped 9693 sequences
+[M::worker_pipeline::8348.477*23.74] mapped 9810 sequences
+[M::worker_pipeline::8762.593*23.74] mapped 9923 sequences
+[M::worker_pipeline::9168.133*23.75] mapped 10035 sequences
+[M::worker_pipeline::9732.283*23.72] mapped 10146 sequences
+[M::worker_pipeline::10011.299*23.72] mapped 10254 sequences
+[M::worker_pipeline::10417.827*23.73] mapped 10361 sequences
+[M::worker_pipeline::10833.766*23.73] mapped 10468 sequences
+[M::worker_pipeline::11239.813*23.74] mapped 10572 sequences
+[M::worker_pipeline::11652.426*23.74] mapped 10674 sequences
+[M::worker_pipeline::12070.060*23.73] mapped 10776 sequences
+[M::worker_pipeline::12471.720*23.74] mapped 10877 sequences
+[M::worker_pipeline::12881.142*23.74] mapped 10978 sequences
+[M::worker_pipeline::13289.947*23.74] mapped 11077 sequences
+[M::worker_pipeline::13705.222*23.74] mapped 11177 sequences
+[M::worker_pipeline::14113.590*23.74] mapped 11276 sequences
+[M::worker_pipeline::14528.498*23.74] mapped 11374 sequences
+[M::worker_pipeline::14938.938*23.74] mapped 11472 sequences
+[M::worker_pipeline::15344.202*23.74] mapped 11570 sequences
+[M::worker_pipeline::15753.666*23.75] mapped 11668 sequences
+[M::worker_pipeline::16159.778*23.75] mapped 11766 sequences
+[M::worker_pipeline::16565.125*23.76] mapped 11863 sequences
+[M::worker_pipeline::16974.039*23.76] mapped 11961 sequences
+[M::worker_pipeline::17384.852*23.75] mapped 12058 sequences
+[M::worker_pipeline::17791.627*23.76] mapped 12156 sequences
+[M::worker_pipeline::18204.541*23.75] mapped 12253 sequences
+[M::worker_pipeline::18611.036*23.76] mapped 12349 sequences
+[M::worker_pipeline::19017.314*23.76] mapped 12446 sequences
+[M::worker_pipeline::19565.606*23.75] mapped 12543 sequences
+[M::worker_pipeline::19835.088*23.75] mapped 12638 sequences
+[M::worker_pipeline::20240.320*23.75] mapped 12734 sequences
+[M::worker_pipeline::20648.236*23.76] mapped 12830 sequences
+[M::worker_pipeline::21053.660*23.76] mapped 12927 sequences
+[M::worker_pipeline::21462.418*23.76] mapped 13024 sequences
+[M::worker_pipeline::21866.339*23.76] mapped 13123 sequences
+[M::worker_pipeline::22271.125*23.76] mapped 13220 sequences
+[M::worker_pipeline::22672.621*23.76] mapped 13317 sequences
+[M::worker_pipeline::23074.142*23.76] mapped 13416 sequences
+[M::worker_pipeline::23474.630*23.77] mapped 13516 sequences
+[M::worker_pipeline::23875.739*23.77] mapped 13615 sequences
+[M::worker_pipeline::24274.358*23.77] mapped 13714 sequences
+[M::worker_pipeline::24677.756*23.77] mapped 13777 sequences
+[M::main] Version: 2.30-r1287
+[M::main] CMD: minimap2 -t 24 -ax map-ont Pm_asm/Pm_ONT_30Gb_trial.hap12.asm.fa Pm_ONT_longest_30gb.fastq.gz
+[M::main] Real time: 24678.155 sec; CPU: 586545.859 sec; Peak RSS: 17.247 GB
+[bam_sort_core] merging from 2 files and 24 in-memory blocks...
++ samtools index -@24 Pm_ONT_30Gb_trial.hap12.asm.bam
++ samtools faidx Pm_asm/Pm_ONT_30Gb_trial.hap12.asm.fa
++ cut -f1,2 Pm_asm/Pm_ONT_30Gb_trial.hap12.asm.fa.fai
++ bedtools makewindows -g genome_file.txt -w 10000 -s 8000
+
+======================================================================================
+                  Resource Usage on 2026-04-07 23:09:57:
+   Job Id:             164960708.gadi-pbs
+   Project:            fa63
+   Exit Status:        0
+   Service Units:      619.77
+   NCPUs Requested:    24                  CPU Time Used: 163:32:03       
+   Memory Requested:   180.0GB               Memory Used: 58.36GB         
+   Walltime Requested: 24:00:00            Walltime Used: 06:53:11        
+   JobFS Requested:    200.0GB                JobFS Used: 0B              
+======================================================================================
