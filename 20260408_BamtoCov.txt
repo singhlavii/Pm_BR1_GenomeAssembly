@@ -1,0 +1,15 @@
+######## Raw Assembly Coverage QC ###############
+
+#NCI is clunky and I don't have access to the bamtocov environment there. Rita suggested working in the lab computer. 
+
+# I moved the bam and bed files here: u7406681@rsb-061244:/media/largeData/Lavi/Pmelanocephala$ 
+
+#To move data into/from you have to use NCI data mover node which has a different address:ls9057@gadi-dm.nci.org.au. Rita also mentioned NCI does not like it if you sit there and move into it so I will sit in Rusty and move from NCI.
+scp ls9057@gadi-dm.nci.org.au:/scratch/xf3/ls9057/Pmelanocephala/638001_LibID640766_PP_BRF_PBI90827_ONTPromethION_fastq_pass/Pm_ONT_30Gb_trial.hap12.asm.bam .
+scp ls9057@gadi-dm.nci.org.au:/scratch/xf3/ls9057/Pmelanocephala/638001_LibID640766_PP_BRF_PBI90827_ONTPromethION_fastq_pass/genome_file.w10ks8k.bed .
+
+# Activate conda envs
+conda activate /home/groups/schwessinger/condaEnvs/common-tools
+
+#Use bamtocov
+bamtocov --regions genome_file.w10ks8k.bed --report windows-stats.tsv Pm_ONT_30Gb_trial.hap12.asm.bam > coverage.bed
