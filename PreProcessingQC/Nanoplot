@@ -2,8 +2,14 @@
 
 ## Navigate to lab computer, tmux and activate conda package
 
+#################################################################
+
 u7406681@rsb-061244:/media/longterm/lavi/Pmelanocephala/Pm_ONT$ tmux
 
 conda activate /home/groups/schwessinger/condaEnvs/nanopack
 
 NanoPlot --fastq Pm_ONT_mergedfq.fastq.gz --verbose --N50 -o nanoplot_30Gb
+
+#####################################################################
+
+## Nanoplot version was nanoplot-1.44.1-pyhdfd78af_0.json
