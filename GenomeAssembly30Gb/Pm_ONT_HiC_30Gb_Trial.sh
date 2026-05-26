@@ -20,3 +20,5 @@ module load hifiasm
 hifiasm -o /g/data/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_trial.asm --ont -t 24 --h1 /g/data/xf3/ls9057/Pmelanocephala/Pm_HiC/638001_LibID640663_PP_BRF_AAHCM7VM5_TCAGCATC-AAGGAGCG_S1_R1_001.fastq.gz --h2 /g/data/xf3/ls9057/Pmelanocephala/Pm_HiC/638001_LibID640663_PP_BRF_AAHCM7VM5_TCAGCATC-AAGGAGCG_S1_R2_001.fastq.gz /scratch/xf3/ls9057/Pmelanocephala/638001_LibID640766_PP_BRF_PBI90827_ONTPromethION_fastq_pass/Pm_ONT_longest_30gb.fastq.gz
 
 
+##############################################################
+hifiasm version  0.25.0
