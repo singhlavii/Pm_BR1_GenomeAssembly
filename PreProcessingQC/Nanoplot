@@ -1,0 +1,9 @@
+# Nanoplot dosen't run on NCI for me, needs external internet connection which dosent work for it. So I used lab computer.
+
+## Navigate to lab computer, tmux and activate conda package
+
+u7406681@rsb-061244:/media/longterm/lavi/Pmelanocephala/Pm_ONT$ tmux
+
+conda activate /home/groups/schwessinger/condaEnvs/nanopack
+
+NanoPlot --fastq Pm_ONT_mergedfq.fastq.gz --verbose --N50 -o nanoplot_30Gb
