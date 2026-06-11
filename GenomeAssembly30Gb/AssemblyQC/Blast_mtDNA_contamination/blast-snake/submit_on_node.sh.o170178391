@@ -1,0 +1,974 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cluster nodes: 500
+Job stats:
+job      count
+-----  -------
+all          1
+blast       67
+total       68
+
+Select jobs to execute...
+
+[Sun Jun  7 20:32:46 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h2tg000022l_0.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000022l_0.blast
+    jobid: 32
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000022l_0.blast
+    wildcards: file=h2tg000022l_0
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 32 with external jobid '170178445.gadi-pbs'.
+
+[Sun Jun  7 20:32:46 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h1tg000003l_6.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000003l_6.blast
+    jobid: 88
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000003l_6.blast
+    wildcards: file=h1tg000003l_6
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 88 with external jobid '170178446.gadi-pbs'.
+
+[Sun Jun  7 20:32:46 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h2tg000027l.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000027l.blast
+    jobid: 369
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000027l.blast
+    wildcards: file=h2tg000027l
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 369 with external jobid '170178447.gadi-pbs'.
+
+[Sun Jun  7 20:32:46 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h1tg000007l_1.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000007l_1.blast
+    jobid: 649
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000007l_1.blast
+    wildcards: file=h1tg000007l_1
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 649 with external jobid '170178448.gadi-pbs'.
+
+[Sun Jun  7 20:32:46 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h2tg000005l_12.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000005l_12.blast
+    jobid: 411
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000005l_12.blast
+    wildcards: file=h2tg000005l_12
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 411 with external jobid '170178449.gadi-pbs'.
+
+[Sun Jun  7 20:32:46 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h2tg000007l_19.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000007l_19.blast
+    jobid: 460
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000007l_19.blast
+    wildcards: file=h2tg000007l_19
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 460 with external jobid '170178450.gadi-pbs'.
+
+[Sun Jun  7 20:32:46 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h1tg000004l_19.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000004l_19.blast
+    jobid: 453
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000004l_19.blast
+    wildcards: file=h1tg000004l_19
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 453 with external jobid '170178451.gadi-pbs'.
+
+[Sun Jun  7 20:32:47 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h2tg000009l_22.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000009l_22.blast
+    jobid: 509
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000009l_22.blast
+    wildcards: file=h2tg000009l_22
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 509 with external jobid '170178452.gadi-pbs'.
+
+[Sun Jun  7 20:32:47 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h1tg000011l.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000011l.blast
+    jobid: 53
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000011l.blast
+    wildcards: file=h1tg000011l
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 53 with external jobid '170178454.gadi-pbs'.
+
+[Sun Jun  7 20:32:47 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h1tg000034l.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000034l.blast
+    jobid: 565
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000034l.blast
+    wildcards: file=h1tg000034l
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 565 with external jobid '170178455.gadi-pbs'.
+
+[Sun Jun  7 20:32:47 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h1tg000001l_15.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000001l_15.blast
+    jobid: 594
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000001l_15.blast
+    wildcards: file=h1tg000001l_15
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 594 with external jobid '170178456.gadi-pbs'.
+
+[Sun Jun  7 20:32:47 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h1tg000018l_7.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000018l_7.blast
+    jobid: 650
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000018l_7.blast
+    wildcards: file=h1tg000018l_7
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 650 with external jobid '170178457.gadi-pbs'.
+
+[Sun Jun  7 20:32:47 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h1tg000006l_3.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000006l_3.blast
+    jobid: 33
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000006l_3.blast
+    wildcards: file=h1tg000006l_3
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 33 with external jobid '170178458.gadi-pbs'.
+
+[Sun Jun  7 20:32:47 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h1tg000024l.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000024l.blast
+    jobid: 145
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000024l.blast
+    wildcards: file=h1tg000024l
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 145 with external jobid '170178459.gadi-pbs'.
+
+[Sun Jun  7 20:32:47 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h1tg000008l_1.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000008l_1.blast
+    jobid: 314
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000008l_1.blast
+    wildcards: file=h1tg000008l_1
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 314 with external jobid '170178460.gadi-pbs'.
+
+[Sun Jun  7 20:32:47 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h2tg000024l.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000024l.blast
+    jobid: 138
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000024l.blast
+    wildcards: file=h2tg000024l
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 138 with external jobid '170178462.gadi-pbs'.
+
+[Sun Jun  7 20:32:47 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h2tg000011l_14.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000011l_14.blast
+    jobid: 187
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000011l_14.blast
+    wildcards: file=h2tg000011l_14
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 187 with external jobid '170178463.gadi-pbs'.
+
+[Sun Jun  7 20:32:47 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h2tg000013l_16.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000013l_16.blast
+    jobid: 110
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000013l_16.blast
+    wildcards: file=h2tg000013l_16
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 110 with external jobid '170178464.gadi-pbs'.
+
+[Sun Jun  7 20:32:48 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h2tg000021l_3.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000021l_3.blast
+    jobid: 159
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000021l_3.blast
+    wildcards: file=h2tg000021l_3
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 159 with external jobid '170178466.gadi-pbs'.
+
+[Sun Jun  7 20:32:48 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h1tg000048l.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000048l.blast
+    jobid: 328
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000048l.blast
+    wildcards: file=h1tg000048l
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 328 with external jobid '170178467.gadi-pbs'.
+
+[Sun Jun  7 20:32:48 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h2tg000018l_3.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000018l_3.blast
+    jobid: 34
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000018l_3.blast
+    wildcards: file=h2tg000018l_3
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 34 with external jobid '170178468.gadi-pbs'.
+
+[Sun Jun  7 20:32:48 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h2tg000006l_1.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000006l_1.blast
+    jobid: 90
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000006l_1.blast
+    wildcards: file=h2tg000006l_1
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 90 with external jobid '170178469.gadi-pbs'.
+
+[Sun Jun  7 20:32:48 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h1tg000026l.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000026l.blast
+    jobid: 27
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000026l.blast
+    wildcards: file=h1tg000026l
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 27 with external jobid '170178470.gadi-pbs'.
+
+[Sun Jun  7 20:32:48 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h1tg000007l_5.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000007l_5.blast
+    jobid: 364
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000007l_5.blast
+    wildcards: file=h1tg000007l_5
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 364 with external jobid '170178471.gadi-pbs'.
+
+[Sun Jun  7 20:32:48 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h1tg000019l_9.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000019l_9.blast
+    jobid: 427
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000019l_9.blast
+    wildcards: file=h1tg000019l_9
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 427 with external jobid '170178473.gadi-pbs'.
+
+[Sun Jun  7 20:32:48 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h2tg000011l_7.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000011l_7.blast
+    jobid: 651
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000011l_7.blast
+    wildcards: file=h2tg000011l_7
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 651 with external jobid '170178474.gadi-pbs'.
+
+[Sun Jun  7 20:32:48 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h1tg000041l.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000041l.blast
+    jobid: 69
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000041l.blast
+    wildcards: file=h1tg000041l
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 69 with external jobid '170178475.gadi-pbs'.
+
+[Sun Jun  7 20:32:48 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h1tg000010l_12.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000010l_12.blast
+    jobid: 399
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000010l_12.blast
+    wildcards: file=h1tg000010l_12
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 399 with external jobid '170178476.gadi-pbs'.
+
+[Sun Jun  7 20:32:49 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h1tg000014l_3.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000014l_3.blast
+    jobid: 392
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000014l_3.blast
+    wildcards: file=h1tg000014l_3
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 392 with external jobid '170178477.gadi-pbs'.
+
+[Sun Jun  7 20:32:49 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h1tg000006l_13.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000006l_13.blast
+    jobid: 35
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000006l_13.blast
+    wildcards: file=h1tg000006l_13
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 35 with external jobid '170178478.gadi-pbs'.
+
+[Sun Jun  7 20:32:49 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h1tg000017l_5.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000017l_5.blast
+    jobid: 316
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000017l_5.blast
+    wildcards: file=h1tg000017l_5
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 316 with external jobid '170178479.gadi-pbs'.
+
+[Sun Jun  7 20:32:49 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h2tg000002l_3.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000002l_3.blast
+    jobid: 28
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000002l_3.blast
+    wildcards: file=h2tg000002l_3
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 28 with external jobid '170178480.gadi-pbs'.
+
+[Sun Jun  7 20:32:49 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h2tg000020l_0.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000020l_0.blast
+    jobid: 140
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000020l_0.blast
+    wildcards: file=h2tg000020l_0
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 140 with external jobid '170178481.gadi-pbs'.
+
+[Sun Jun  7 20:32:49 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h2tg000017l_1.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000017l_1.blast
+    jobid: 253
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000017l_1.blast
+    wildcards: file=h2tg000017l_1
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 253 with external jobid '170178482.gadi-pbs'.
+
+[Sun Jun  7 20:32:49 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h1tg000004l_1.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000004l_1.blast
+    jobid: 372
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000004l_1.blast
+    wildcards: file=h1tg000004l_1
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 372 with external jobid '170178483.gadi-pbs'.
+
+[Sun Jun  7 20:32:49 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h1tg000035l.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000035l.blast
+    jobid: 519
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000035l.blast
+    wildcards: file=h1tg000035l
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 519 with external jobid '170178484.gadi-pbs'.
+
+[Sun Jun  7 20:32:49 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h1tg000031l.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000031l.blast
+    jobid: 526
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000031l.blast
+    wildcards: file=h1tg000031l
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 526 with external jobid '170178485.gadi-pbs'.
+
+[Sun Jun  7 20:32:50 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h2tg000012l_1.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000012l_1.blast
+    jobid: 485
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000012l_1.blast
+    wildcards: file=h2tg000012l_1
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 485 with external jobid '170178487.gadi-pbs'.
+
+[Sun Jun  7 20:32:50 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h1tg000013l_3.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000013l_3.blast
+    jobid: 92
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000013l_3.blast
+    wildcards: file=h1tg000013l_3
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 92 with external jobid '170178490.gadi-pbs'.
+
+[Sun Jun  7 20:32:50 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h2tg000015l_5.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000015l_5.blast
+    jobid: 148
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000015l_5.blast
+    wildcards: file=h2tg000015l_5
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 148 with external jobid '170178493.gadi-pbs'.
+
+[Sun Jun  7 20:32:50 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h1tg000005l_9.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000005l_9.blast
+    jobid: 85
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000005l_9.blast
+    wildcards: file=h1tg000005l_9
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 85 with external jobid '170178495.gadi-pbs'.
+
+[Sun Jun  7 20:32:50 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h2tg000012l_0.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000012l_0.blast
+    jobid: 261
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000012l_0.blast
+    wildcards: file=h2tg000012l_0
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 261 with external jobid '170178498.gadi-pbs'.
+
+[Sun Jun  7 20:32:50 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h2tg000018l_12.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000018l_12.blast
+    jobid: 134
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000018l_12.blast
+    wildcards: file=h2tg000018l_12
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 134 with external jobid '170178501.gadi-pbs'.
+
+[Sun Jun  7 20:32:50 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h2tg000005l_8.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000005l_8.blast
+    jobid: 310
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000005l_8.blast
+    wildcards: file=h2tg000005l_8
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 310 with external jobid '170178505.gadi-pbs'.
+
+[Sun Jun  7 20:32:50 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h1tg000010l_1.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000010l_1.blast
+    jobid: 317
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000010l_1.blast
+    wildcards: file=h1tg000010l_1
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 317 with external jobid '170178508.gadi-pbs'.
+
+[Sun Jun  7 20:32:50 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h1tg000004l_5.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000004l_5.blast
+    jobid: 373
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000004l_5.blast
+    wildcards: file=h1tg000004l_5
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 373 with external jobid '170178511.gadi-pbs'.
+
+[Sun Jun  7 20:32:51 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h1tg000036l.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000036l.blast
+    jobid: 6
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000036l.blast
+    wildcards: file=h1tg000036l
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 6 with external jobid '170178512.gadi-pbs'.
+
+[Sun Jun  7 20:32:51 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h1tg000032l.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000032l.blast
+    jobid: 422
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000032l.blast
+    wildcards: file=h1tg000032l
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 422 with external jobid '170178514.gadi-pbs'.
+
+[Sun Jun  7 20:32:51 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h2tg000002l_7.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000002l_7.blast
+    jobid: 478
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000002l_7.blast
+    wildcards: file=h2tg000002l_7
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 478 with external jobid '170178515.gadi-pbs'.
+
+[Sun Jun  7 20:32:51 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h1tg000018l_13.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000018l_13.blast
+    jobid: 674
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000018l_13.blast
+    wildcards: file=h1tg000018l_13
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 674 with external jobid '170178516.gadi-pbs'.
+
+[Sun Jun  7 20:32:51 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h2tg000004l_13.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000004l_13.blast
+    jobid: 499
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000004l_13.blast
+    wildcards: file=h2tg000004l_13
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 499 with external jobid '170178517.gadi-pbs'.
+
+[Sun Jun  7 20:32:51 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h1tg000003l_19.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000003l_19.blast
+    jobid: 324
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000003l_19.blast
+    wildcards: file=h1tg000003l_19
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 324 with external jobid '170178518.gadi-pbs'.
+
+[Sun Jun  7 20:32:51 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h1tg000007l_4.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000007l_4.blast
+    jobid: 37
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000007l_4.blast
+    wildcards: file=h1tg000007l_4
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 37 with external jobid '170178519.gadi-pbs'.
+
+[Sun Jun  7 20:32:51 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h2tg000016l_5.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000016l_5.blast
+    jobid: 93
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000016l_5.blast
+    wildcards: file=h2tg000016l_5
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 93 with external jobid '170178520.gadi-pbs'.
+
+[Sun Jun  7 20:32:51 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h2tg000008l_2.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000008l_2.blast
+    jobid: 86
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000008l_2.blast
+    wildcards: file=h2tg000008l_2
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 86 with external jobid '170178521.gadi-pbs'.
+
+[Sun Jun  7 20:32:51 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h2tg000009l_7.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000009l_7.blast
+    jobid: 262
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000009l_7.blast
+    wildcards: file=h2tg000009l_7
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 262 with external jobid '170178522.gadi-pbs'.
+
+[Sun Jun  7 20:32:52 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h2tg000009l_5.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000009l_5.blast
+    jobid: 374
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000009l_5.blast
+    wildcards: file=h2tg000009l_5
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 374 with external jobid '170178524.gadi-pbs'.
+
+[Sun Jun  7 20:32:52 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h1tg000018l_6.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000018l_6.blast
+    jobid: 486
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000018l_6.blast
+    wildcards: file=h1tg000018l_6
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 486 with external jobid '170178525.gadi-pbs'.
+
+[Sun Jun  7 20:32:52 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h1tg000015l_16.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000015l_16.blast
+    jobid: 297
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000015l_16.blast
+    wildcards: file=h1tg000015l_16
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 297 with external jobid '170178526.gadi-pbs'.
+
+[Sun Jun  7 20:32:52 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h2tg000025l.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000025l.blast
+    jobid: 353
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000025l.blast
+    wildcards: file=h2tg000025l
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 353 with external jobid '170178527.gadi-pbs'.
+
+[Sun Jun  7 20:32:52 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h2tg000017l_12.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000017l_12.blast
+    jobid: 640
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000017l_12.blast
+    wildcards: file=h2tg000017l_12
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 640 with external jobid '170178528.gadi-pbs'.
+
+[Sun Jun  7 20:32:52 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h1tg000008l_0.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000008l_0.blast
+    jobid: 480
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000008l_0.blast
+    wildcards: file=h1tg000008l_0
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 480 with external jobid '170178529.gadi-pbs'.
+
+[Sun Jun  7 20:32:52 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h2tg000007l_0.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000007l_0.blast
+    jobid: 256
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000007l_0.blast
+    wildcards: file=h2tg000007l_0
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 256 with external jobid '170178530.gadi-pbs'.
+
+[Sun Jun  7 20:32:52 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h2tg000002l_23.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000002l_23.blast
+    jobid: 381
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000002l_23.blast
+    wildcards: file=h2tg000002l_23
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 381 with external jobid '170178531.gadi-pbs'.
+
+[Sun Jun  7 20:32:52 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h2tg000008l_4.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000008l_4.blast
+    jobid: 368
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000008l_4.blast
+    wildcards: file=h2tg000008l_4
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 368 with external jobid '170178532.gadi-pbs'.
+
+[Sun Jun  7 20:32:52 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h1tg000003l_9.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000003l_9.blast
+    jobid: 648
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000003l_9.blast
+    wildcards: file=h1tg000003l_9
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 648 with external jobid '170178533.gadi-pbs'.
+
+[Sun Jun  7 20:32:52 2026]
+rule blast:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_ONT_30Gb_chunks/h1tg000038l.fasta
+    output: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000038l.blast
+    jobid: 473
+    reason: Missing output files: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000038l.blast
+    wildcards: file=h1tg000038l
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=<TBD>
+
+Submitted job 473 with external jobid '170178534.gadi-pbs'.
+[Sun Jun  7 21:08:27 2026]
+Finished job 427.
+1 of 68 steps (1%) done
+[Sun Jun  7 21:08:29 2026]
+Finished job 6.
+2 of 68 steps (3%) done
+[Sun Jun  7 21:08:29 2026]
+Finished job 422.
+3 of 68 steps (4%) done
+[Sun Jun  7 21:08:42 2026]
+Finished job 110.
+4 of 68 steps (6%) done
+[Sun Jun  7 21:08:42 2026]
+Finished job 328.
+5 of 68 steps (7%) done
+[Sun Jun  7 21:12:25 2026]
+Finished job 565.
+6 of 68 steps (9%) done
+[Sun Jun  7 21:12:28 2026]
+Finished job 519.
+7 of 68 steps (10%) done
+[Sun Jun  7 21:14:56 2026]
+Finished job 594.
+8 of 68 steps (12%) done
+[Sun Jun  7 21:17:00 2026]
+Finished job 526.
+9 of 68 steps (13%) done
+[Sun Jun  7 21:19:02 2026]
+Finished job 473.
+10 of 68 steps (15%) done
+[Sun Jun  7 21:19:59 2026]
+Finished job 69.
+11 of 68 steps (16%) done
+[Sun Jun  7 21:20:27 2026]
+Finished job 460.
+12 of 68 steps (18%) done
+[Sun Jun  7 21:34:28 2026]
+Finished job 509.
+13 of 68 steps (19%) done
+[Sun Jun  7 21:34:28 2026]
+Finished job 53.
+14 of 68 steps (21%) done
+[Sun Jun  7 21:34:33 2026]
+Finished job 381.
+15 of 68 steps (22%) done
+[Sun Jun  7 21:34:33 2026]
+Finished job 368.
+16 of 68 steps (24%) done
+[Sun Jun  7 21:34:33 2026]
+Finished job 648.
+17 of 68 steps (25%) done
+[Sun Jun  7 21:35:13 2026]
+Finished job 485.
+18 of 68 steps (26%) done
+[Sun Jun  7 21:35:13 2026]
+Finished job 148.
+19 of 68 steps (28%) done
+[Sun Jun  7 21:35:15 2026]
+Finished job 297.
+20 of 68 steps (29%) done
+[Sun Jun  7 21:36:21 2026]
+Finished job 369.
+21 of 68 steps (31%) done
+[Sun Jun  7 21:39:26 2026]
+Finished job 499.
+22 of 68 steps (32%) done
+[Sun Jun  7 21:39:27 2026]
+Finished job 324.
+23 of 68 steps (34%) done
+[Sun Jun  7 21:39:27 2026]
+Finished job 86.
+24 of 68 steps (35%) done
+[Sun Jun  7 21:39:27 2026]
+Finished job 262.
+25 of 68 steps (37%) done
+[Sun Jun  7 21:39:28 2026]
+Finished job 374.
+26 of 68 steps (38%) done
+[Sun Jun  7 21:39:28 2026]
+Finished job 640.
+27 of 68 steps (40%) done
+[Sun Jun  7 21:39:41 2026]
+Finished job 486.
+28 of 68 steps (41%) done
+[Sun Jun  7 21:40:46 2026]
+Finished job 478.
+29 of 68 steps (43%) done
+[Sun Jun  7 21:40:46 2026]
+Finished job 37.
+30 of 68 steps (44%) done
+[Sun Jun  7 21:42:53 2026]
+Finished job 33.
+31 of 68 steps (46%) done
+[Sun Jun  7 21:42:53 2026]
+Finished job 145.
+32 of 68 steps (47%) done
+[Sun Jun  7 21:42:53 2026]
+Finished job 314.
+33 of 68 steps (49%) done
+[Sun Jun  7 21:42:54 2026]
+Finished job 138.
+34 of 68 steps (50%) done
+[Sun Jun  7 21:42:54 2026]
+Finished job 187.
+35 of 68 steps (51%) done
+[Sun Jun  7 21:43:33 2026]
+Finished job 253.
+36 of 68 steps (53%) done
+[Sun Jun  7 21:43:33 2026]
+Finished job 372.
+37 of 68 steps (54%) done
+[Sun Jun  7 21:44:00 2026]
+Finished job 674.
+38 of 68 steps (56%) done
+[Sun Jun  7 21:44:33 2026]
+Finished job 34.
+39 of 68 steps (57%) done
+[Sun Jun  7 21:44:34 2026]
+Finished job 27.
+40 of 68 steps (59%) done
+[Sun Jun  7 21:45:46 2026]
+Finished job 32.
+41 of 68 steps (60%) done
+[Sun Jun  7 21:45:46 2026]
+Finished job 88.
+42 of 68 steps (62%) done
+[Sun Jun  7 21:46:47 2026]
+Finished job 261.
+43 of 68 steps (63%) done
+[Sun Jun  7 21:46:59 2026]
+Finished job 92.
+44 of 68 steps (65%) done
+[Sun Jun  7 21:46:59 2026]
+Finished job 85.
+45 of 68 steps (66%) done
+[Sun Jun  7 21:47:23 2026]
+Finished job 316.
+46 of 68 steps (68%) done
+[Sun Jun  7 21:47:23 2026]
+Finished job 28.
+47 of 68 steps (69%) done
+[Sun Jun  7 21:47:23 2026]
+Finished job 140.
+48 of 68 steps (71%) done
+[Sun Jun  7 21:47:46 2026]
+Finished job 93.
+49 of 68 steps (72%) done
+[Sun Jun  7 21:47:46 2026]
+Finished job 480.
+50 of 68 steps (74%) done
+[Sun Jun  7 21:48:07 2026]
+Finished job 453.
+51 of 68 steps (75%) done
+[Sun Jun  7 21:49:14 2026]
+Finished job 134.
+52 of 68 steps (76%) done
+[Sun Jun  7 21:49:14 2026]
+Finished job 310.
+53 of 68 steps (78%) done
+[Sun Jun  7 21:49:14 2026]
+Finished job 317.
+54 of 68 steps (79%) done
+[Sun Jun  7 21:50:19 2026]
+Finished job 650.
+55 of 68 steps (81%) done
+[Sun Jun  7 21:51:48 2026]
+Finished job 256.
+56 of 68 steps (82%) done
+[Sun Jun  7 21:52:09 2026]
+Finished job 35.
+57 of 68 steps (84%) done
+[Sun Jun  7 21:52:09 2026]
+Finished job 373.
+58 of 68 steps (85%) done
+[Sun Jun  7 21:53:00 2026]
+Finished job 649.
+59 of 68 steps (87%) done
+[Sun Jun  7 21:54:30 2026]
+Finished job 411.
+60 of 68 steps (88%) done
+[Sun Jun  7 21:54:31 2026]
+Finished job 651.
+61 of 68 steps (90%) done
+[Sun Jun  7 21:59:11 2026]
+Finished job 353.
+62 of 68 steps (91%) done
+[Sun Jun  7 21:59:31 2026]
+Finished job 90.
+63 of 68 steps (93%) done
+[Sun Jun  7 21:59:31 2026]
+Finished job 399.
+64 of 68 steps (94%) done
+[Sun Jun  7 22:14:02 2026]
+Finished job 392.
+65 of 68 steps (96%) done
+[Sun Jun  7 22:17:22 2026]
+Finished job 159.
+66 of 68 steps (97%) done
+[Sun Jun  7 22:29:53 2026]
+Finished job 364.
+67 of 68 steps (99%) done
+Select jobs to execute...
+
+[Sun Jun  7 22:29:54 2026]
+localrule all:
+    input: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000011l_12.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000006l_9.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000020l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000003l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000015l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000036l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000009l_17.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000017l_9.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000006l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000020l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000004l_13.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000020l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000017l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000016l_15.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000022l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000019l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000011l_10.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000012l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000018l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000013l_12.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000013l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000005l_6.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000012l_9.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000003l_19.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000016l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000006l_11.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000026l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000002l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000003l_15.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000003l_9.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000009l_17.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000022l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000006l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000018l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000006l_13.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000012l_14.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000007l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000012l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000017l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000022l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000004l_16.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000012l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000002l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000003l_16.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000018l_8.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000009l_12.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000011l_8.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000004l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000005l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000015l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000007l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000016l_6.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000011l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000042l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000002l_14.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000020l_13.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000014l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000008l_14.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000009l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000011l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000008l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000004l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000007l_6.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000007l_8.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000012l_23.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000014l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000003l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000012l_12.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000041l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000030l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000006l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000002l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000005l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000007l_13.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000002l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000013l_20.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000016l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000016l_12.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000005l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000003l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000016l_10.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000013l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000002l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000001l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000005l_9.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000008l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000005l_15.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000003l_6.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000003l_17.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000006l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000009l_13.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000013l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000016l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000015l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000015l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000018l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000016l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000010l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000022l_10.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000004l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000013l_22.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000006l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000026l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000017l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000005l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000009l_18.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000016l_21.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000004l_18.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000002l_9.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000013l_16.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000013l_12.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000008l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000004l_6.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000002l_6.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000002l_12.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000009l_10.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000007l_12.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000009l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000050l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000004l_10.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000011l_9.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000013l_21.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000022l_11.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000018l_11.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000009l_19.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000017l_8.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000015l_8.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000012l_18.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000010l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000047c.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000009l_15.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000007l_10.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000006l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000018l_12.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000018l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000018l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000016l_19.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000024l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000004l_9.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000020l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000002l_22.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000017l_10.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000014l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000003l_17.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000024l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000003l_12.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000033l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000015l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000020l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000002l_12.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000012l_22.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000017l_6.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000017l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000018l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000022l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000004l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000012l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000013l_11.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000021l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000014l_14.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000020l_9.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000019l_6.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000028l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000002l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000008l_6.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000002l_10.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000016l_13.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000011l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000006l_6.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000002l_8.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000006l_10.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000020l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000002l_13.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000046l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000005l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000020l_8.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000007l_11.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000002l_17.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000011l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000012l_15.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000014l_15.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000004l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000016l_17.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000015l_12.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000003l_11.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000017l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000011l_14.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000003l_6.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000009l_13.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000009l_6.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000039l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000004l_14.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000018l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000017l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000001l_10.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000022l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000013l_8.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000009l_9.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000009l_6.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000007l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000015l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000006l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000010l_10.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000003l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000002l_14.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000013l_10.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000016l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000001l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000013l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000007l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000012l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000014l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000002l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000016l_22.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000008l_8.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000016l_14.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000018l_9.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000002l_10.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000028l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000012l_8.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000013l_15.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000012l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000019l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000002l_11.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000018l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000002l_22.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000003l_14.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000002l_18.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000027l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000004l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000020l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000008l_8.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000002l_15.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000005l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000019l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000012l_15.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000003l_16.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000002l_16.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000006l_14.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000013l_15.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000022l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000018l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000001l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000005l_10.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000018l_6.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000011l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000002l_19.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000012l_19.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000021l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000020l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000005l_6.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000018l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000017l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000025l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000012l_8.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000007l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000002l_11.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000012l_23.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000009l_14.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000013l_17.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000012l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000009l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000020l_8.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000007l_15.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000018l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000022l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000014l_6.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000012l_21.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000008l_9.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000003l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000012l_20.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000003l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000014l_13.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000013l_13.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000013l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000014l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000009l_9.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000005l_12.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000012l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000011l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000020l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000005l_14.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000009l_15.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000009l_21.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000004l_10.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000004l_11.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000003l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000013l_8.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000003l_11.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000016l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000019l_11.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000018l_12.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000006l_8.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000007l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000008l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000002l_13.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000015l_16.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000005l_17.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000008l_13.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000018l_10.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000012l_6.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000016l_6.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000019l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000019l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000009l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000009l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000012l_21.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000014l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000015l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000005l_8.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000015l_14.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000008l_10.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000003l_21.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000008l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000019l_13.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000017l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000010l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000005l_16.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000018l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000016l_8.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000014l_11.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000017l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000013l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000003l_19.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000006l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000001l_6.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000008l_12.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000048l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000023l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000006l_11.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000011l_13.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000019l_8.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000013l_10.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000006l_12.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000001l_8.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000012l_20.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000016l_16.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000017l_11.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000004l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000015l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000006l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000019l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000018l_11.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000001l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000020l_6.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000015l_15.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000005l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000013l_14.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000016l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000010l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000003l_10.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000008l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000025l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000009l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000009l_16.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000005l_13.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000012l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000001l_9.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000010l_9.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000049l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000005l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000006l_12.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000019l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000007l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000012l_19.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000008l_16.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000009l_22.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000008l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000027l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000015l_10.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000003l_15.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000004l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000004l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000009l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000002l_21.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000013l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000009l_11.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000004l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000016l_20.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000009l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000002l_23.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000003l_13.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000012l_16.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000009l_21.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000007l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000012l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000019l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000004l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000002l_20.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000010l_8.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000029l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000014l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000006l_6.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000006l_20.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000019l_12.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000002l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000017l_11.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000005l_9.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000010l_12.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000015l_11.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000016l_14.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000015l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000019l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000004l_17.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000003l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000001l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000002l_9.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000006l_9.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000020l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000016l_9.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000005l_12.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000010l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000013l_9.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000004l_12.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000004l_11.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000002l_17.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000008l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000020l_10.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000004l_6.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000016l_9.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000018l_10.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000032l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000002l_19.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000002l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000006l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000003l_8.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000019l_9.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000002l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000010l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000012l_24.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000009l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000006l_17.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000017l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000012l_17.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000013l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000009l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000002l_6.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000009l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000009l_14.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000001l_14.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000003l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000018l_8.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000013l_18.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000002l_8.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000006l_8.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000008l_20.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000017l_12.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000012l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000007l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000007l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000003l_20.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000012l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000004l_19.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000017l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000019l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000006l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000017l_8.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000008l_19.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000016l_23.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000007l_19.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000016l_8.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000019l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000004l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000010l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000022l_13.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000009l_20.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000006l_16.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000019l_9.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000003l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000014l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000008l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000022l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000038l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000014l_9.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000010l_11.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000012l_10.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000012l_18.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000002l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000007l_9.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000008l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000020l_12.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000013l_11.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000016l_21.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000012l_13.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000012l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000018l_6.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000008l_6.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000013l_16.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000007l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000009l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000009l_8.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000006l_19.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000003l_10.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000005l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000008l_17.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000003l_13.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000001l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000009l_10.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000004l_13.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000006l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000021l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000008l_15.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000005l_8.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000018l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000005l_11.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000003l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000002l_16.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000014l_12.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000009l_22.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000015l_13.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000002l_15.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000021l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000020l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000005l_10.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000019l_14.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000022l_9.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000022l_12.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000006l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000035l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000009l_18.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000008l_21.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000013l_9.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000013l_19.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000009l_11.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000011l_11.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000031l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000008l_9.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000009l_12.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000012l_17.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000020l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000007l_14.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000002l_20.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000016l_19.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000002l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000006l_13.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000008l_10.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000022l_8.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000023l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000016l_15.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000012l_9.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000008l_11.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000004l_12.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000003l_12.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000005l_18.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000013l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000016l_20.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000008l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000016l_11.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000013l_6.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000013l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000008l_22.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000043l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000008l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000021l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000015l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000004l_8.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000002l_18.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000007l_16.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000017l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000019l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000016l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000012l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000002l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000003l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000034l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000020l_6.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000015l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000016l_10.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000015l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000013l_6.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000003l_18.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000016l_13.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000014l_10.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000019l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000019l_6.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000010l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000012l_13.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000009l_16.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000013l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000009l_20.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000016l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000022l_6.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000016l_11.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000006l_10.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000005l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000009l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000013l_13.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000004l_9.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000004l_15.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000002l_21.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000012l_6.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000014l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000009l_23.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000001l_15.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000003l_18.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000003l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000016l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000014l_8.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000009l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000001l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000005l_11.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000019l_8.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000016l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000004l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000007l_17.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000003l_14.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000001l_11.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000045l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000011l_6.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000017l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000016l_16.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000007l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000016l_22.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000009l_19.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000017l_9.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000006l_21.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000006l_15.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000013l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000019l_10.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000015l_9.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000006l_18.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000019l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000012l_11.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000008l_18.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000011l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000005l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000014l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000014l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000010l_6.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000004l_8.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000008l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000003l_8.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000016l_18.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000017l_6.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000015l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000001l_12.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000016l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000016l_12.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000009l_8.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000017l_12.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000005l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000017l_10.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000012l_11.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000016l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000005l_19.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000001l_13.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000018l_9.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000003l_9.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000007l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000018l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000011l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000044l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000016l_17.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000007l_18.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000003l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000020l_11.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000013l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000020l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000012l_10.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000015l_6.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000016l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000016l_18.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000004l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000012l_14.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000012l_16.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000017l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000013l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000008l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000013l_14.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000012l_22.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000002l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000006l_22.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000001l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000018l_13.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000012l_12.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000005l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000006l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000037l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000005l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000040l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000020l_2.blast
+    jobid: 0
+    reason: Input files updated by another job: /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000016l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000019l_9.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000012l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000001l_15.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000002l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000041l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000003l_19.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000031l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000017l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000007l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000011l_14.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000005l_12.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000009l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000022l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000018l_6.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000005l_9.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000014l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000008l_2.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000015l_16.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000004l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000004l_13.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000013l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000002l_23.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000007l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000018l_12.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000003l_9.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000034l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000007l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000025l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000035l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000018l_13.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000010l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000007l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000024l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000017l_12.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000018l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000011l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000015l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000010l_12.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000011l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000013l_16.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000017l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000048l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000032l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000020l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000007l_19.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000008l_0.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000006l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000006l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000018l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000004l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000009l_22.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000026l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000009l_5.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000012l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000005l_8.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000006l_13.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000002l_7.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000024l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000003l_6.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000008l_1.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000036l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000027l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000008l_4.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h2tg000021l_3.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000038l.blast, /scratch/xf3/ls9057/Pmelanocephala/Pm_30Gb_blast/h1tg000004l_19.blast
+    resources: mem_mb=1000, mem_mib=954, disk_mb=1000, disk_mib=954, tmpdir=/jobfs/170178391.gadi-pbs
+
+[Sun Jun  7 22:29:54 2026]
+Finished job 0.
+68 of 68 steps (100%) done
+Complete log: .snakemake/log/2026-06-07T203157.912311.snakemake.log
+
+======================================================================================
+                  Resource Usage on 2026-06-07 22:30:07:
+   Job Id:             170178391.gadi-pbs
+   Project:            xf3
+   Exit Status:        0
+   Service Units:      3.95
+   NCPUs Requested:    1                   CPU Time Used: 00:00:08        
+   Memory Requested:   2.0GB                 Memory Used: 250.65MB        
+   Walltime Requested: 48:00:00            Walltime Used: 01:58:23        
+   JobFS Requested:    100.0MB                JobFS Used: 0B              
+======================================================================================
