@@ -1,3 +1,5 @@
+# MtDNA and Contamination cleanup of Contig level Assembly
+
 I refered to Rita's github (Pst104EGenomeAnalysis/genome_assembly/blast_contaminant_mtDNA/assembly_cleanup.md). She has explained steps so I'll just summarize my codes here.
 
 
@@ -32,5 +34,6 @@ seqtk subseq Pm_ONT_30Gb_trial.hap12.asm.fa mtDNA_contigs_qcov1.txt > mtDNA.fast
 I removed mtDNA contigs 
 
 ```
+module load bbmap
 filterbyname.sh in=Pm_ONT_30Gb_trial.hap12.asm.fa out=Pm_30Gb_mtDNArm.hap12.asm.fa names=mtDNA_contigs_qcov1.txt
 ```
