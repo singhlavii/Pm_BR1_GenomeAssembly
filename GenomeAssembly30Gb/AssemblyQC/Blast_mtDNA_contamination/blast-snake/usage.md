@@ -4,7 +4,7 @@ First I copied her blast-snake folder which contains all files to my scratch fro
 
 ```/g/data/xf3/ht5438/project/pangenome_pst/blast/blast-snake```
 
-First, she recommends splitting your genome into smaller chunks, maximum 1Mbp per file. Her python script for this is in the folder called split_genome.py. Run
+She recommends splitting your genome into smaller chunks, maximum 1Mbp per file. Her python script for this is in the folder called split_genome.py. Run
 
 ```python split_genome.py <input.fasta> <output_dir>```
 
@@ -20,5 +20,6 @@ I did this with
 python -m venv /scratch/xf3/ls9057/venvs/snakemake7
 source /scratch/xf3/ls9057/venvs/snakemake7/bin/activate
 pip install snakemake==7.32.4
-snakemake --version```
+snakemake --version
+```
 
