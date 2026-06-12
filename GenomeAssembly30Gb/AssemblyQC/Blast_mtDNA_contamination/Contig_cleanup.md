@@ -1,6 +1,6 @@
 # MtDNA and Contamination cleanup of Contig level Assembly
 
-I refered to Rita's github (Pst104EGenomeAnalysis/genome_assembly/blast_contaminant_mtDNA/assembly_cleanup.md). She has explained steps so I'll just summarize my codes here.
+I refered to Rita's github ```(Pst104EGenomeAnalysis/genome_assembly/blast_contaminant_mtDNA/assembly_cleanup.md)``` She has explained steps so I'll just summarize my codes here.
 
 
 ```
