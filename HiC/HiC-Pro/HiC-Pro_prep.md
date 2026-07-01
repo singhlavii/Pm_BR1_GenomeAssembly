@@ -24,3 +24,5 @@ source /g/data/xf3/ls9057/software/hicpro_venv/bin/activate
 pip install numpy scipy
 ```
 Then, I ran ```HiCPro_prep.sh``` provided in the folder. 
+
+** I had initally run both haplotypes seprate but then changed to both haplotypes combined. The code remained the same, except for input files. **
