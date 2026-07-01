@@ -23,6 +23,6 @@ python3 -m venv /g/data/xf3/ls9057/software/hicpro_venv
 source /g/data/xf3/ls9057/software/hicpro_venv/bin/activate
 pip install numpy scipy
 ```
-Then, I ran ```HiCPro_prep.sh``` provided in the folder. 
+Then, I ran ```HiCPro_prep.sh``` provided in the folder. Once that finsihed, I ran ```HiCPro_hap1.sh```. Yan copied a singularity image for me there which I used to run HiC Pro.
 
 **I had initally run both haplotypes seperate but then changed to both haplotypes combined. The code remained the same, except for input files.**
