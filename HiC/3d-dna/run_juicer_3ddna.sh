@@ -17,4 +17,4 @@ bash /g/data/xf3/ls9057/Pmelanocephala/juicer_3ddna/juicer_3ddna.sh \
   /scratch/xf3/ls9057/Pmelanocephala/post_dgenies/Pm_hap12_v1_reorder.fa \
   /scratch/xf3/ls9057/Pmelanocephala/HiC/HiC_input/Pm_HiC_sample/Pm_HiC_sample_R1.fastq.gz \
   /scratch/xf3/ls9057/Pmelanocephala/HiC/HiC_input/Pm_HiC_sample/Pm_HiC_sample_R2.fastq.gz \
-  /g/data/xf3/ls9057/Pmelanocephala/juicer_3ddna_v2
+  /g/data/xf3/ls9057/Pmelanocephala/juicer_3ddna
