@@ -1,0 +1,47 @@
+#!/bin/bash
+#PBS -q normal
+#PBS -P xf3
+#PBS -l ncpus=48
+#PBS -l mem=100GB
+#PBS -l jobfs=100GB
+#PBS -l walltime=06:00:00
+#PBS -l wd
+#PBS -l storage=scratch/xf3+gdata/xf3
+#PBS -j oe
+#PBS -m abe
+#PBS -M u7406681@anu.edu.au
+
+set -xe
+
+module load minimap2/2.31
+module load samtools/1.9
+
+REF=/scratch/xf3/ls9057/Pmelanocephala/Pm_asm_30Gb/Pm_hap12_3ddna_v2_20260829.fasta
+READS=/g/data/xf3/ls9057/Pmelanocephala/fastq/Pm_ONT_longest_30gb.fastq.gz
+OUTDIR=/scratch/xf3/ls9057/Pmelanocephala/mapping
+SAMPLE=Pm_ONT_hap12_3ddna_v2_20260829
+
+mkdir -p $OUTDIR
+
+# Index reference
+samtools faidx $REF
+
+# Map ONT reads and sort in one pipe
+minimap2 -ax map-ont \
+  -t 48 \
+  -K 8g \
+  --secondary=no \
+  -R "@RG\tID:${SAMPLE}\tSM:${SAMPLE}" \
+  $REF \
+  $READS | \
+  samtools sort \
+  -@ 12 \
+  -m 4G \
+  -T $PBS_JOBFS/tmp_sort \
+  -o ${OUTDIR}/${SAMPLE}.sorted.bam
+
+# Index BAM
+samtools index -@ 48 ${OUTDIR}/${SAMPLE}.sorted.bam
+
+# Mapping stats
+samtools flagstat -@ 48 ${OUTDIR}/${SAMPLE}.sorted.bam > ${OUTDIR}/${SAMPLE}.flagstat.txt
