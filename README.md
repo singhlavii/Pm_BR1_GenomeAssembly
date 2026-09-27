@@ -22,4 +22,6 @@ AssemblyQC: ```Pm_ONT_30Gb_trial_asm_Seqkit.sh``` > ```contig_lengths_sorted_hap
 
 CoverageQC : ```CoverageQC.sh``` > ```20260408_BamtoCov.txt``` > ```KaryoplotR.R``` >
 
+Blast_mtDNA_contamination >  blast-snake : refer to ```usage.md```
+
 
