@@ -5,6 +5,7 @@ Codes used for assembling *Puccinia melanocephala* (BR1) genome as part of my Ph
 2. PreProcessingQC
 3. GenomeAssembly30Gb
 4. HiC
+5. Assembly QC post Scaffolding
 
 ### 1. DataDownload
 
@@ -34,6 +35,8 @@ HiC-Pro : ```HiC-Pro_prep.md``` > ```HiCPro_prep.sh``` > ```config_hap1.txt``` >
 
 3d-dna > edit ``` juicer_3ddna.sh ``` > ```run_juicer_3ddna.sh``` > ```Post_juicebox_edits.md```
 
+5. Assembly QC post Scaffolding
+   
 I then proceeded to do assembly QC and stored codes in GenomeAssembly30GB > AssemblyQC > PostScaffolding_QC
 
 ```Minimap2_rawreadsmap``` > ```Kmer``` > ```Busco``` > ```ChromoMap``` > 
