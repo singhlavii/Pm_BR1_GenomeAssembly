@@ -9,3 +9,7 @@ Codes used for assembling Puccinia melanocephala (BR1) genome as part of my PhD.
 ## 1. DataDownload
 
 ```BioplatformsDataPortal``` > ```MovingtoNCI``` > ```DeCompressingFiles```
+
+## 2. PreProcessingQC
+
+```Nanoplot``` > ```Seqkit``` > ```Jellyfish``` > ```SubSampling30Gb```
