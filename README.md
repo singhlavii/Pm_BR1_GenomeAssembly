@@ -18,6 +18,8 @@ Codes used for assembling Puccinia melanocephala (BR1) genome as part of my PhD.
 
 ```Pm_ONT_HiC_30Gb_Trial.sh``` > 
 
-```AssemblyQC``` : ```Pm_ONT_30Gb_trial_asm_Seqkit.sh``` > ```contig_lengths_sorted_hap1.sh``` > 
+AssemblyQC: ```Pm_ONT_30Gb_trial_asm_Seqkit.sh``` > ```contig_lengths_sorted_hap1.sh``` > 
 
-```CoverageQC``` : ```CoverageQC.sh``` > ```20260408_BamtoCov.txt``` > ```KaryoplotR.R```
+CoverageQC : ```CoverageQC.sh``` > ```20260408_BamtoCov.txt``` > ```KaryoplotR.R``` >
+
+
