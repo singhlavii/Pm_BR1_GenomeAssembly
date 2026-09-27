@@ -24,4 +24,14 @@ CoverageQC : ```CoverageQC.sh``` > ```20260408_BamtoCov.txt``` > ```KaryoplotR.R
 
 Blast_mtDNA_contamination >  blast-snake : refer to ```usage.md```
 
+### 4. HiC
+
+```Rawreads_QC.md``` >
+
+HiC-Pro : ```HiC-Pro_prep.md``` > ```HiCPro_prep.sh``` > ```config_hap1.txt``` > ```HiCPro_hap1.sh``` >
+
+```yahs_juicer.sh``` > ```Post_juicebox_edits.md``` >
+
+3d-dna > edit ``` juicer_3ddna.sh ``` > ```run_juicer_3ddna.sh``` > ```Post_juicebox_edits.md```
+
 
