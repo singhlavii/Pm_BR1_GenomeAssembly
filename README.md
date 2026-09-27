@@ -1,5 +1,5 @@
 ## Genome Assembly of *Puccinia melanocephala* (Internal isolate ID: BR1)
-Codes used for assembling Puccinia melanocephala (BR1) genome as part of my PhD. I have used Claude (Sonnet 4.6) to help with some codes (cross checking). 
+Codes used for assembling *Puccinia melanocephala* (BR1) genome as part of my PhD. I have used Claude (Sonnet 4.6) to help with some codes, mainly interpreting error logs and software manuals/usage. 
 
 1. DataDownload
 2. PreProcessingQC
