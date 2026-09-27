@@ -35,7 +35,7 @@ HiC-Pro : ```HiC-Pro_prep.md``` > ```HiCPro_prep.sh``` > ```config_hap1.txt``` >
 
 3d-dna > edit ``` juicer_3ddna.sh ``` > ```run_juicer_3ddna.sh``` > ```Post_juicebox_edits.md```
 
-5. Assembly QC post Scaffolding
+### 5. Assembly QC post Scaffolding
    
 I then proceeded to do assembly QC and stored codes in GenomeAssembly30GB > AssemblyQC > PostScaffolding_QC
 
