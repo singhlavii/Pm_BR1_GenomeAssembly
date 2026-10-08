@@ -4,9 +4,9 @@
 
 conda activate /home/groups/schwessinger/condaEnvs/busco
 
-for fasta in /media/ssd/lavi/Pmelanocephala/Pm_asm/Pm_hap12_3ddna_v2_20260829.fasta \
-             /media/ssd/lavi/Pmelanocephala/Pm_asm/Pm_hap1_3ddna_v2_20260829.fasta \
-             /media/ssd/lavi/Pmelanocephala/Pm_asm/Pm_hap2_3ddna_v2_20260829.fasta; do
+for fasta in /media/ssd/lavi/Pmelanocephala/Pm_asm/Pm_hap12_20261008.fasta \
+             /media/ssd/lavi/Pmelanocephala/Pm_asm/Pm_hap1_20261008.fasta \
+             /media/ssd/lavi/Pmelanocephala/Pm_asm/Pm_hap2_20261008.fasta; do
     fn=$(basename $fasta .fasta)
     echo $fn
     mkdir -p /media/ssd/lavi/Pmelanocephala/busco/${fn}_busco
