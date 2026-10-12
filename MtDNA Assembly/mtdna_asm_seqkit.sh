@@ -35,9 +35,3 @@ samtools fastq ${OUT}.mtDNA.bam > ${OUT}.mtDNA.fastq
 
 # filter mtDNA reads by length
 seqkit seq --threads 8 --max-len 120000 --min-len 20000 ${OUT}.mtDNA.fastq > ${OUT}.mtDNA.20-120k.fastq
-
-# subsample to ~700x to be memory efficient during assembly
-seqkit sample -s 11 -p 0.3 ${OUT}.mtDNA.20-120k.fastq > ${OUT}.mtDNA.20-120k.subsamp0.3.fastq
-
-# read counts and total bases at each stage (check the subsample is ~700x)
-seqkit stats -T ${OUT}.mtDNA.fastq ${OUT}.mtDNA.20-120k.fastq ${OUT}.mtDNA.20-120k.subsamp0.3.fastq
