@@ -15,15 +15,11 @@ module use /g/data/if89/apps/modulefiles
 module load meryl/1.4.1
 module load merqury/1.3
 
-MERQURY=/scratch/xf3/ls9057/Pmelanocephala/scripts/merqury.sh
 READS=/g/data/xf3/ls9057/Pmelanocephala/fastq/Pm_ONT_longest_30gb.fastq.gz
-HAP12=/scratch/xf3/ls9057/Pmelanocephala/Pm_asm_30Gb/Pm_hap12_3ddna_v2_20260829.fasta
-HAP1=/scratch/xf3/ls9057/Pmelanocephala/Pm_asm_30Gb/Pm_hap1_3ddna_v2_20260829.fasta
-HAP2=/scratch/xf3/ls9057/Pmelanocephala/Pm_asm_30Gb/Pm_hap2_3ddna_v2_20260829.fasta
 OUTDIR=/scratch/xf3/ls9057/Pmelanocephala/merqury
 
 mkdir -p $OUTDIR
 cd $OUTDIR
 
 # Step 1 — Build k-mer database
-meryl k=21 count memory=180 threads=16 output reads.k21.meryl $READS
+meryl k=21 count memory=180 threads=16 $READS output reads.k21.meryl 
