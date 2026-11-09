@@ -39,4 +39,4 @@ HiC-Pro : ```HiC-Pro_prep.md``` > ```HiCPro_prep.sh``` > ```config_hap1.txt``` >
    
 I then proceeded to do assembly QC and stored codes in GenomeAssembly30GB > AssemblyQC > PostScaffolding_QC
 
-```Minimap2_rawreadsmap``` > ```Kmer``` > ```Busco``` > ```ChromoMap``` > 
+```Minimap2_rawreadsmap``` > ```Kmer``` > ```Busco``` > ```ChromoMap``` > ```Lai.sh``` > ```CoverageQC_v4.sh``` > ```HiC_Contacts```
