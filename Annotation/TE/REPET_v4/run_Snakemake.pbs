@@ -25,11 +25,11 @@ export SINGULARITY_TMPDIR=$PBS_JOBFS
 # -p --configfile $configfile -c 24 -s Snakefile \
 # --rerun-incomplete --rerun-triggers mtime --keep-going --omit-from MCL_clustering \
 # --max-jobs-per-second 5 --max-status-checks-per-second 5 --latency-wait 60 \
-# >> snakemake_hap2.log 2>&1
+# >> snakemake_hap1.log 2>&1
 
 snakemake all --use-conda --use-singularity \
  --singularity-args '--bind /home,/scratch/xf3,/g/data/xf3,/home/147/ls9057/REPET_patch/DecisionMakerPerConsensus.py:/opt/miniconda/lib/python3.13/site-packages/PASTEC/DecisionMakerPerConsensus.py,/home/147/ls9057/REPET_patch/LaunchMCL.py:/opt/miniconda/lib/python3.13/site-packages/commons/launcher/LaunchMCL.py' \
   -p --configfile $configfile -c 48 -s Snakefile \
  --rerun-incomplete --rerun-triggers mtime --keep-going --omit-from MCL_clustering \
  --max-jobs-per-second 5 --max-status-checks-per-second 5 --latency-wait 60 \
- >> snakemake_hap2.log 2>&1  
+ >> snakemake_hap1.log 2>&1  
