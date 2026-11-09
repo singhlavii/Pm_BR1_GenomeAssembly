@@ -1,0 +1,108 @@
+#Input files
+# Path to genome file, must be a fasta
+genome_file: /scratch/xf3/ls9057/Pmelanocephala/REPET/data/genome/PmBR1hap1.fa
+
+# Path to Apptainer images
+container :
+  REPET: /g/data/xf3/common/snakemake-workflows/REPETv4-snakemake/repet_v4.0.sif
+
+
+preprocess :  # Preprocess input file to handle large genome
+  Formatting: True # formats headers, nucleic sequences and formats column, also calculates metrics and removes N stretchs
+  Mask_SRR: False # launch TRF to mask SSR, remove N stretchs, metrics calculation
+  Subset: True # For fat genome, allows to create a subset
+  Subset_length: 300000000 # Size of a genome subset in bp, only work if Subset : true
+
+RunPASTEC : True # Run PASTEC on the consensus
+
+# Clustering Methods, at least one need to be Enabled
+clustering_methods :
+  grouper : True
+  recon : True #
+  piler : True # Works best on old TE 
+
+params_batch : # Batching parameters
+  chunk_length : 200000 # Size of a batch (in bp)
+  chunk_overlap : 10000 # Size of the overlap between the batches
+  min_nb_seq_per_batch : 5
+
+params_blaster: # Blaster parameters
+  sensitivity : 0
+  e_value : 1e-300
+  fragment_cutter_length : 20000
+
+build_consensus:
+  minBasesPerSite: 2 # minimum number of bases required to build a consensus base
+
+params_run_RmvPairAlignInChunkOverlaps :
+  chunkLength: 200000
+  chunkOverlap: 10000
+  margin: 10
+
+#Pastec options
+#if True, Enable the corresponding feature detection
+Feature_detection:
+  TerminalRepeatSearch: True
+  TandemRepeatSearch: True
+  PolyAtailSearch: True
+  ORFSearch: True
+  HmmSearch: True
+  BlasterBlastn: True
+  BlasterTblastx: True
+  BlasterBlastx: True
+  HGBlasterBlastn: True
+  DNABlasterBlastn: True
+
+# Choose your blast type,
+# /!\ WARNING: NCBI+ is not supported yet
+
+blastType: "ncbi"
+#blastType: "ncbi+"
+
+CustomBanks : True
+#Path to you DataBanks.The standard databanks are included in the REPET.sif image. Banks have to be specialy formated for REPET
+DataBanks:
+  knownTEnuclBank: /g/data/xf3/common/snakemake-workflows/REPETv4-snakemake/data/repbase30.01_ntSeq_cleaned_TE.fa
+  profilesBank: /g/data/xf3/common/snakemake-workflows/REPETv4-snakemake/data/ProfilesBankForREPET_Pfam35.0_GypsyDB.hmm
+  knownTEprotBank: /g/data/xf3/common/snakemake-workflows/REPETv4-snakemake/data/repbase30.01_aaSeq_cleaned_TE.fa
+  HGbank:
+  DNAbank: /g/data/xf3/common/snakemake-workflows/REPETv4-snakemake/data/rRNA_Eukaryota_2020_2021.fsa
+
+#Post classification curation, Set True to Enable.
+ClassificationPostProcess:
+  removeRedundancy : False # Remove redundant consensus
+  reverseComp : False # Filter consensus that are reverse complement of other consensus
+  addNoCatBestHitClassif : False # Try to classify unclassified consensus by running blast against the others consensus
+
+# After classification, the consensus are filtered. filtering options, set to True to enable
+Filtering:
+  filter_SSR: True # Filter consensus classified as SSR
+  length_SSR: 0 # Filter SRR longer than the given value
+  filter_unclassified: True # Filter out unclassified consensus
+  filter_unclassified_max_fragments: 10 #Filter unclassified if they align to less than the amount of fragment given
+  filter_host_gene: False #Filter out consensus classified as PHG
+  filter_confused: False #Filter out consensus whose Classification we are not sure about
+  filter_rDNA: False # Filter rDNA
+
+# Internal PASTEC filter
+PASTEC_config:
+  maxProfilesEvalue : 1e-2 # Filter out Hmmer result if Evalue higher than the given threshold
+  minTeProfilesCoverage : 20 # Filter out Hmmer result if coverage below the given threshold
+  minHgProfilesCoverage : 75 # Filter out HGblast result if coverage below given threshold
+  maxHelitronExtremitiesEvalue : 1e-3 # Filter out Helitron extremity if E-value above the given threshold
+  minTeBankCoverage : 5 # Filter out Blast results against TEbanks if coverage below the given threshold
+  minHgBankCoverage : 95 # Filter out Blast results against HGbanks if coverage below the given threshold
+  minRdnaBankCoverage : 95 # Filter out Blast results against rRNAbanks if coverage below the given threshold
+  minHgBankIdentity : 90 # Filter out Blast results against HGbanks if identity below the given threshold
+  minRdnaBankIdentity : 90 # Filter out Blast results against rRNAbanks if identity below the given threshold
+  minSsrCoverage : 75 # Filter out SSR if coverage is below the given threshold
+  maxSsrSize : 100 # Filter out SSR if size is above the given threshold
+
+Clustering: # MCL parameters
+  MCL_inflation: 4.0
+  MCL_coverage: 0.0
+  clean: yes # remove al temporary files
+
+#use low complexity filter in steps 7 and 8
+#/!\ enabling LCF leads to less redundancy being removed
+LowComplexityFilter: False
