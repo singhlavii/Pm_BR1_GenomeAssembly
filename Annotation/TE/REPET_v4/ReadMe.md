@@ -2,7 +2,17 @@
 
 Rita has installed the snakemake workflow here with a readme file here: ```/g/data/xf3/common/snakemake-workflows/REPETv4-snakemake/rita_tutorial.md```
 
-I did each haplotype separately. 
+I did each haplotype separately. I initially started running this in the shared workspace but moved to my scratch folder using copyq queue because I had a lot of files in there.
+
+```
+OLD=/g/data/xf3/common/snakemake-workflows/REPETv4-snakemake/TEdenovo_snakemake
+NEW=/scratch/xf3/ls9057/Pmelanocephala/REPET/TEdenovo_snakemake
+cp -rp $OLD/Snakefile $OLD/scripts $OLD/envs $OLD/config $OLD/run_Snakemake.pbs $NEW/
+
+rsync -a --remove-source-files \
+  $OLD/results_TEdenovo_PmBR1hap1 $OLD/.snakemake $NEW/
+```
+
 
 In this folder, I have included
 1. ```config_hap1.yaml```: includes all paths to input files and parameters.
